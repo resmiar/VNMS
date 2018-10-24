@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" version="12.0">
+	<children>
+		<child name="DataGrid" key="{124740AD-BB49-44BA-97F1-44B37F38CEB7}" type="Table" typeId="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" pluginName="Stores">
+			<data path="DataGrid.tcTbl" />
+		</child>
+		<child name="DataGrid1" key="{F359E02E-0BB4-474B-9CCB-1A416C1A26FE}" type="Table" typeId="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" pluginName="Stores">
+			<data path="DataGrid1.tcTbl" />
+		</child>
+		<child name="DataGrid2" key="{A57DADA8-603E-4C44-84EE-BA39BD781E9A}" type="Table" typeId="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" pluginName="Stores">
+			<data path="DataGrid2.tcTbl" />
+		</child>
+	</children>
+	<folders />
+</Root>

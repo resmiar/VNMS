@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8193A920-D3A8-4EC9-8E4F-39052258A03A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="42915.4357407407" objectName="Aliases.VNMS.ResetSOEConfirmationWindow.btnOK" objectLeft="362" objectTop="127" objectRight="450" objectBottom="153" clickPointX="400" clickPointY="134" imageFileName="tcvi131323078161641.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

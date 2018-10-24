@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{3E866024-B88E-496C-9F38-B9F338527543}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.VNMS" Data="61717A697000000001000000360400007801ED52318A8430147DA35B29C8F62AACDD36B6633FD86EAD27D013D888606D6727763662AD9EC00BD88967112C363F3313322ECCB0EDB21F5E7CEF27EF2726FFF2757E038F331B3F19DE6F38E1833116B7F9ABF81FEF37B0EF3BCAB284EBBA5055F59EE6DFAEEB1EF4516CDB06DFF78F69A18320409AA6421F499EE7C7D4AFB46DDB7C7DDBB64892049EE7A1AE6B50DD799E452DD334B1AE2BC671E4701C47CC11217FD334C8B20CC330208A222CCB82A22838C230E4FE071313F2FE7DDFA3AA2A4CD3C4CF22FBE338FEE1B72C8B9F936A6A9A06C330041445119CF2BAAE732DEF4FFFF8EAFEE5F532A737232FC5B3F7973DD41BD423D42BE4F90BF10DCED45D2F" />
+					<Bitmap Name="Aliases.VNMS.CardView" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.CardViewWindow" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.testControl" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="T1E1_Settings">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="T1E1_Settings">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Loopback index">
+											<Values>
+												<Value Type="6" Value="Enable" Text="Enable" />
+												<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+												<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+												<Value Type="6" Value="PIC version" Text="PIC version" />
+												<Value Type="6" Value="Framer Revision" Text="Framer Revision" />
+												<Value Type="6" Value="T1E1 mode Index" Text="T1E1 mode Index" />
+												<Value Type="6" Value="T1E1 modeActual value" Text="T1E1 modeActual value" />
+												<Value Type="6" Value="Port T1E1 mode index" Text="Port T1E1 mode index" />
+												<Value Type="6" Value="Port T1E1 mode Actual" Text="Port T1E1 mode Actual" />
+												<Value Type="6" Value="Tx Clock Source Index" Text="Tx Clock Source Index" />
+												<Value Type="6" Value="Tx Clock Source Actual" Text="Tx Clock Source Actual" />
+												<Value Type="6" Value="Reset Counters index" Text="Reset Counters index" />
+												<Value Type="6" Value="Reset Counters Actual" Text="Reset Counters Actual" />
+												<Value Type="6" Value="Loopback index" Text="Loopback index" />
+												<Value Type="6" Value="Loopback Actual" Text="Loopback Actual" />
+												<Value Type="6" Value="T1 Frame mode index" Text="T1 Frame mode index" />
+												<Value Type="6" Value="T1 Frame mode actual" Text="T1 Frame mode actual" />
+												<Value Type="6" Value="T1 zero code index" Text="T1 zero code index" />
+												<Value Type="6" Value="T1 zero code actual" Text="T1 zero code actual" />
+												<Value Type="6" Value="E1 Frame mode index" Text="E1 Frame mode index" />
+												<Value Type="6" Value="E1 Frame mode actual" Text="E1 Frame mode actual" />
+												<Value Type="6" Value="E1 zero code index" Text="E1 zero code index" />
+												<Value Type="6" Value="E1 zero code actual" Text="E1 zero code actual" />
+												<Value Type="6" Value="E1 CRC status" Text="E1 CRC status" />
+												<Value Type="6" Value="E1 CRC status actual" Text="E1 CRC status actual" />
+												<Value Type="6" Value="User info" Text="User info" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Left>
+								<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+								<Data LabelName="End of file" />
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="4" VariableName="Value">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="T1E1_Settings">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Loopback index">
+											<Values>
+												<Value Type="6" Value="Enable" Text="Enable" />
+												<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+												<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+												<Value Type="6" Value="PIC version" Text="PIC version" />
+												<Value Type="6" Value="Framer Revision" Text="Framer Revision" />
+												<Value Type="6" Value="T1E1 mode Index" Text="T1E1 mode Index" />
+												<Value Type="6" Value="T1E1 modeActual value" Text="T1E1 modeActual value" />
+												<Value Type="6" Value="Port T1E1 mode index" Text="Port T1E1 mode index" />
+												<Value Type="6" Value="Port T1E1 mode Actual" Text="Port T1E1 mode Actual" />
+												<Value Type="6" Value="Tx Clock Source Index" Text="Tx Clock Source Index" />
+												<Value Type="6" Value="Tx Clock Source Actual" Text="Tx Clock Source Actual" />
+												<Value Type="6" Value="Reset Counters index" Text="Reset Counters index" />
+												<Value Type="6" Value="Reset Counters Actual" Text="Reset Counters Actual" />
+												<Value Type="6" Value="Loopback index" Text="Loopback index" />
+												<Value Type="6" Value="Loopback Actual" Text="Loopback Actual" />
+												<Value Type="6" Value="T1 Frame mode index" Text="T1 Frame mode index" />
+												<Value Type="6" Value="T1 Frame mode actual" Text="T1 Frame mode actual" />
+												<Value Type="6" Value="T1 zero code index" Text="T1 zero code index" />
+												<Value Type="6" Value="T1 zero code actual" Text="T1 zero code actual" />
+												<Value Type="6" Value="E1 Frame mode index" Text="E1 Frame mode index" />
+												<Value Type="6" Value="E1 Frame mode actual" Text="E1 Frame mode actual" />
+												<Value Type="6" Value="E1 zero code index" Text="E1 zero code index" />
+												<Value Type="6" Value="E1 zero code actual" Text="E1 zero code actual" />
+												<Value Type="6" Value="E1 CRC status" Text="E1 CRC status" />
+												<Value Type="6" Value="E1 CRC status actual" Text="E1 CRC status actual" />
+												<Value Type="6" Value="User info" Text="User info" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Selects the %p1 item of the &apos;%n&apos; combo box." Action="ClickItem">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Item" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Value" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Loopback.Loopback.UcComboView.Grid.ComboboxcontrolLoopback.Grid.ComboBox;" />
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="WriteCardView" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Loopback.Loopback.UcComboView.Grid.Label" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="WPFControlText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="T1E1_Settings">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Loopback Actual">
+											<Values>
+												<Value Type="6" Value="Enable" Text="Enable" />
+												<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+												<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+												<Value Type="6" Value="PIC version" Text="PIC version" />
+												<Value Type="6" Value="Framer Revision" Text="Framer Revision" />
+												<Value Type="6" Value="T1E1 mode Index" Text="T1E1 mode Index" />
+												<Value Type="6" Value="T1E1 modeActual value" Text="T1E1 modeActual value" />
+												<Value Type="6" Value="Port T1E1 mode index" Text="Port T1E1 mode index" />
+												<Value Type="6" Value="Port T1E1 mode Actual" Text="Port T1E1 mode Actual" />
+												<Value Type="6" Value="Tx Clock Source Index" Text="Tx Clock Source Index" />
+												<Value Type="6" Value="Tx Clock Source Actual" Text="Tx Clock Source Actual" />
+												<Value Type="6" Value="Reset Counters index" Text="Reset Counters index" />
+												<Value Type="6" Value="Reset Counters Actual" Text="Reset Counters Actual" />
+												<Value Type="6" Value="Loopback index" Text="Loopback index" />
+												<Value Type="6" Value="Loopback Actual" Text="Loopback Actual" />
+												<Value Type="6" Value="T1 Frame mode index" Text="T1 Frame mode index" />
+												<Value Type="6" Value="T1 Frame mode actual" Text="T1 Frame mode actual" />
+												<Value Type="6" Value="T1 zero code index" Text="T1 zero code index" />
+												<Value Type="6" Value="T1 zero code actual" Text="T1 zero code actual" />
+												<Value Type="6" Value="E1 Frame mode index" Text="E1 Frame mode index" />
+												<Value Type="6" Value="E1 Frame mode actual" Text="E1 Frame mode actual" />
+												<Value Type="6" Value="E1 zero code index" Text="E1 zero code index" />
+												<Value Type="6" Value="E1 zero code actual" Text="E1 zero code actual" />
+												<Value Type="6" Value="E1 CRC status" Text="E1 CRC status" />
+												<Value Type="6" Value="E1 CRC status actual" Text="E1 CRC status actual" />
+												<Value Type="6" Value="User info" Text="User info" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="0" Operator="0">
+								<Expression Type="1" Operator="0">
+									<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Loopback.Loopback.UcComboView.Grid.Label.WPFControlText" />
+									<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="local" />
+								</Expression>
+								<Expression Type="1" Operator="0">
+									<Left DefVarType="0" VarType="8" ValueType="6" ValueValue="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Loopback.Loopback.UcComboView.Grid.Label.WPFControlText" />
+									<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="remote" />
+								</Expression>
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Selects the %p1 tab of the &apos;%n&apos; tab control." Action="ClickTab">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Status.TabControlStatus.RxStatusTab;" />
+								</Data>
+							</Operation>
+							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.Status.ContentPresenter2.Ellipse.DataContext" />
+										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="SelectedColor" />
+										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ORANGE" />
+										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Selects the %p1 tab of the &apos;%n&apos; tab control." Action="ClickTab">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="4" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Status.TabControlStatus.AlarmTab;" />
+								</Data>
+							</Operation>
+							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.Alarm.MinorAlarm.Ellipse.DataContext" />
+										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="SelectedColor" />
+										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ORANGE" />
+										<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+				<Data Name="End of file" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{760F4382-5265-444E-9DA7-763561481AEC}">
+		<Items>
+			<Variable Name="Value" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{BBC81618-0DBD-4143-85E9-84626C8F3073}" />
+</Root>

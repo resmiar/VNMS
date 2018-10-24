@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3A8AE4FE-96BE-42E5-BEF2-3B0E416FE215}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42887.5453819444" objectName="Aliases.VNMS.NodeView.NonModularView.NodeView_3500" objectLeft="38" objectTop="100" objectRight="1163" objectBottom="443" clickPointX="703" clickPointY="265" imageFileName="tcvi1229710614800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42887.545462963" objectName="Aliases.VNMS.NodeView" objectLeft="8" objectTop="30" objectRight="1209" objectBottom="611" clickPointX="-361" clickPointY="-231" imageFileName="tcvi1230342414803.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42895.3825462963" objectName="Aliases.VNMS.NodeView.ModularView.NodeView_3500M.PowerSupply_MainAndRedundant" objectLeft="711" objectTop="133" objectRight="922" objectBottom="324" clickPointX="763" clickPointY="274" imageFileName="tcvi16318082139360.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42895.3825694444" objectName="Aliases.VNMS.NodeView" objectLeft="8" objectTop="30" objectRight="1209" objectBottom="731" clickPointX="-361" clickPointY="-171" imageFileName="tcvi16318281739363.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

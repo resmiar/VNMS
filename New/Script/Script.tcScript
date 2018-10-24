@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{2A529965-C2F0-4072-B835-EF2A3C2B68C1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
+		<child name="SelectSourcePortASYNC" key="{59C9A8EC-A09A-4261-A422-A3F830D78902}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectSourcePortASYNC.js" />
+		</child>
+		<child name="SelectDestinationPortASYNC" key="{DAD6FE1B-9356-473F-BDD9-E4ECEA729E32}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectDestinationPortASYNC.js" />
+		</child>
+		<child name="GetRequiredSlotNumbers" key="{255D941C-33B4-403C-B740-04C0541211BF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\VNMS Library\Script\GetRequiredSlotNumbers.js" />
+		</child>
+		<child name="VerifySourcePortMapping_ASYNC" key="{9B1DCA79-D704-41F0-8979-7E7B24DCFCC5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="VerifySourcePortMapping_ASYNC.js" />
+		</child>
+		<child name="OpenBundleSettingsASYNC" key="{039FE986-8CFF-4C43-82D1-E3FAE59A4EF0}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OpenBundleSettingsASYNC.js" />
+		</child>
+		<child name="DeleteBundlesASYNC" key="{D25973EB-F7CA-4091-90CD-3528C780A7C3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="DeleteBundlesASYNC.js" />
+		</child>
+		<child name="selectNode" key="{3D36B975-46FF-487E-B10C-49B26E2D8C92}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\VNMS Library\Script\selectNode.js" />
+		</child>
+		<child name="CheckCardsInNodeView" key="{28C34C92-7F9A-4F58-9349-7AAA29C88666}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="..\..\VNMS Library\Script\CheckCardsInNodeView.js" />
+		</child>
+		<child name="SelectSourcePort_Gen" key="{17427FC4-EA94-4B37-B273-9A75995A0A3C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectSourcePort_Gen.js" />
+		</child>
+		<child name="SelectDestinationPort_Gen" key="{0194866F-C250-485B-AA1C-AB4637EF3214}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectDestinationPort_Gen.js" />
+		</child>
+		<child name="OpenBundleSettings_Gen" key="{F78C19A9-2DE7-4161-8AB3-9CB2E223C68A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OpenBundleSettings_Gen.js" />
+		</child>
+		<child name="DeleteBundles_Gen" key="{0DF4A718-22DF-40DB-BC4F-996BCDA9F697}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="DeleteBundles_Gen.js" />
+		</child>
+		<child name="VerifySourceMapping_Gen" key="{3EC252BA-57E9-4128-92D6-4DAAB3ED599B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="VerifySourceMapping_Gen.js" />
+		</child>
+		<child name="ShowDialog" key="{3C977CAB-F812-4CDA-8E7D-73663EC27DB3}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="ShowDialog.js" />
+		</child>
+		<child name="SelectSourcePort_T1E1" key="{6D822093-23A4-4C79-B8C2-F7583DA62F89}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectSourcePort_T1E1.js" />
+		</child>
+		<child name="SelectDestinationPort_T1E1" key="{B3A2987F-5243-4BF0-90BF-08BA2C53C82B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SelectDestinationPort_T1E1.js" />
+		</child>
+		<child name="Unit2" key="{F453A76E-05B6-4CF0-B11F-0B85884FDD1C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit2.js" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="ASYNC" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{DAD6FE1B-9356-473F-BDD9-E4ECEA729E32}" />
+				<ref key="{59C9A8EC-A09A-4261-A422-A3F830D78902}" />
+				<ref key="{D25973EB-F7CA-4091-90CD-3528C780A7C3}" />
+				<ref key="{039FE986-8CFF-4C43-82D1-E3FAE59A4EF0}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

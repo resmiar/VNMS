@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{9BCF645E-33D0-4830-A14B-0BD51A3E086A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42885.4127083333" objectName="Aliases.VNMS.CardView.CardViewWindow.BusyIndicator.TabControlConfiguration.ScrollViewer.testControl.GroupItem.UcCheckboxAutoForced.CheckboxP1Enable" objectLeft="207" objectTop="193" objectRight="341" objectBottom="207" clickPointX="214" clickPointY="204" imageFileName="tcvi-117212121832680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42885.4135300926" objectName="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.MainMenu" objectLeft="0" objectTop="24" objectRight="1365" objectBottom="46" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-117205000032689.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="42885.4152199074" objectName="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.MainMenu" objectLeft="0" objectTop="24" objectRight="1365" objectBottom="46" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-1171903421326813.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="42885.4152893519" objectName="Aliases.VNMS.CardView.CardViewWindow.BusyIndicator.TabControlConfiguration.ScrollViewer.testControl.GroupItem.UcCheckboxAutoForced.CheckboxP1Enable" objectLeft="207" objectTop="193" objectRight="341" objectBottom="207" clickPointX="212" clickPointY="198" imageFileName="tcvi-1171897843326815.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

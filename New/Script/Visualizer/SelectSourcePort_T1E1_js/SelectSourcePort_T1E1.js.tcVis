@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6D822093-23A4-4C79-B8C2-F7583DA62F89}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="96" kind="0" dateTime="42912.4376388889" objectName="Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500M.Grid.Border.Grid.Border2.BT1E1MappingGrid" objectLeft="532" objectTop="388" objectRight="563" objectBottom="418" clickPointX="551" clickPointY="400" imageFileName="tcvi105419217156400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="97" kind="0" dateTime="42912.4376967593" objectName="Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500M.Grid.Border.Grid.Border2.BdrT1E1" objectLeft="530" objectTop="385" objectRight="565" objectBottom="421" clickPointX="-340" clickPointY="-27" imageFileName="tcvi105419781256402.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

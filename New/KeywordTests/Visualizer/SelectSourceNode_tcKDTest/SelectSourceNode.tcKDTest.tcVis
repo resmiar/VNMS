@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{59C6F7B0-0E56-4A32-BB17-6C6872EB899F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42891.4993171296" objectName="Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel.CmbNodeName" objectLeft="14" objectTop="66" objectRight="165" objectBottom="97" clickPointX="-241" clickPointY="-141" imageFileName="tcvi2315505644083.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

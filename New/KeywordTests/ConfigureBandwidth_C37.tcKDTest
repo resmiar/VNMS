@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{9474FF48-63C1-4052-B47E-5E17B398FBA6}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.VNMS" Data="61717A697000000001000000360400007801ED52318A8430147DA35B29C8F62AACDD36B6633FD86EAD27D013D888606D6727763662AD9EC00BD88967112C363F3313322ECCB0EDB21F5E7CEF27EF2726FFF2757E038F331B3F19DE6F38E1833116B7F9ABF81FEF37B0EF3BCAB284EBBA5055F59EE6DFAEEB1EF4516CDB06DFF78F69A18320409AA6421F499EE7C7D4AFB46DDB7C7DDBB64892049EE7A1AE6B50DD799E452DD334B1AE2BC671E4701C47CC11217FD334C8B20CC330208A222CCB82A22838C230E4FE071313F2FE7DDFA3AA2A4CD3C4CF22FBE338FEE1B72C8B9F936A6A9A06C330041445119CF2BAAE732DEF4FFFF8EAFEE5F532A737232FC5B3F7973DD41BD423D42BE4F90BF10DCED45D2F" />
+					<Bitmap Name="Aliases.VNMS.CardView" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Performs a single click on the specified button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.ButtonDefaultSettings;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.BandwidthTab;" />
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="C3794_Settings">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="2" />
+				</Data>
+				<Children>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PortNum" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth1 input">
+													<Values>
+														<Value Type="6" Value="Enable" Text="Enable" />
+														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+														<Value Type="6" Value="PIC Version" Text="PIC Version" />
+														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+														<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+														<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+														<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+														<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+														<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+														<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+														<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+														<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+														<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+														<Value Type="6" Value="User info" Text="User info" />
+														<Value Type="6" Value="F20" Text="F20" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Left>
+										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+										<Data LabelName="End of file" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="State">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+													<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth1 input">
+															<Values>
+																<Value Type="6" Value="Enable" Text="Enable" />
+																<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+																<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+																<Value Type="6" Value="PIC Version" Text="PIC Version" />
+																<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+																<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+																<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+																<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+																<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+																<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+																<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+																<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+																<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+																<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+																<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+																<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+																<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+																<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+																<Value Type="6" Value="User info" Text="User info" />
+																<Value Type="6" Value="F20" Text="F20" />
+															</Values>
+														</Parameter>
+													</ArrayIndexes>
+												</Parameter>
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+										<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+											<Root Type="0" Operator="1">
+												<Expression Type="1" Operator="3">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+												</Expression>
+												<Expression Type="1" Operator="5">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+												</Expression>
+											</Root>
+										</Data>
+										<Children>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Sets the track bar &apos;%n&apos; to position %v." Action="wPosition" InvokeKind="2">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="wPosition" DefVarType="5" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													</Parameters>
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth1.Slider;" />
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="WriteCardView" />
+											</Operation>
+											<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+												<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth1.Label" />
+														<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
+														<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+														<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+														<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+										<Data />
+										<Children>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an error to the test log." MessageType="1">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Invalid input for Port 1 Bandwidth" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PortNum" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="2" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth2 input">
+													<Values>
+														<Value Type="6" Value="Enable" Text="Enable" />
+														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+														<Value Type="6" Value="PIC Version" Text="PIC Version" />
+														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+														<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+														<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+														<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+														<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+														<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+														<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+														<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+														<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+														<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+														<Value Type="6" Value="User info" Text="User info" />
+														<Value Type="6" Value="F20" Text="F20" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Left>
+										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+										<Data LabelName="End of file" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="State">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+													<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth2 input">
+															<Values>
+																<Value Type="6" Value="Enable" Text="Enable" />
+																<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+																<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+																<Value Type="6" Value="PIC Version" Text="PIC Version" />
+																<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+																<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+																<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+																<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+																<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+																<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+																<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+																<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+																<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+																<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+																<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+																<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+																<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+																<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+																<Value Type="6" Value="User info" Text="User info" />
+																<Value Type="6" Value="F20" Text="F20" />
+															</Values>
+														</Parameter>
+													</ArrayIndexes>
+												</Parameter>
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+										<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+											<Root Type="0" Operator="1">
+												<Expression Type="1" Operator="3">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+												</Expression>
+												<Expression Type="1" Operator="5">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+												</Expression>
+											</Root>
+										</Data>
+										<Children>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Sets the track bar &apos;%n&apos; to position %v." Action="wPosition" InvokeKind="2">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Param1" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													</Parameters>
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth2.Slider;" />
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="WriteCardView" />
+											</Operation>
+											<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+												<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth2.Label" />
+														<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
+														<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+														<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+														<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+										<Data />
+										<Children>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an error to the test log." MessageType="1">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Invalid input for Port 2 Bandwidth" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PortNum" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="3" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth3 input">
+													<Values>
+														<Value Type="6" Value="Enable" Text="Enable" />
+														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+														<Value Type="6" Value="PIC Version" Text="PIC Version" />
+														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+														<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+														<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+														<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+														<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+														<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+														<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+														<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+														<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+														<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+														<Value Type="6" Value="User info" Text="User info" />
+														<Value Type="6" Value="F20" Text="F20" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Left>
+										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+										<Data LabelName="End of file" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="State">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="C3794_Settings" ColumnName="Bandwidth3 input" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+										<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+											<Root Type="0" Operator="1">
+												<Expression Type="1" Operator="3">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+												</Expression>
+												<Expression Type="1" Operator="5">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+												</Expression>
+											</Root>
+										</Data>
+										<Children>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Sets the track bar &apos;%n&apos; to position %v." Action="wPosition" InvokeKind="2">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="wPosition" DefVarType="5" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													</Parameters>
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth3.Slider;" />
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="WriteCardView" />
+											</Operation>
+											<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+												<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth3.Label" />
+														<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
+														<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+														<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+														<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+										<Data />
+										<Children>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an error to the test log." MessageType="1">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Invalid input for Port 3 Bandwidth" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="PortNum" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="4" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth4 input">
+													<Values>
+														<Value Type="6" Value="Enable" Text="Enable" />
+														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+														<Value Type="6" Value="PIC Version" Text="PIC Version" />
+														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+														<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+														<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+														<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+														<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+														<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+														<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+														<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+														<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+														<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+														<Value Type="6" Value="User info" Text="User info" />
+														<Value Type="6" Value="F20" Text="F20" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Left>
+										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+										<Data LabelName="End of file" />
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="State">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+													<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth4 input">
+															<Values>
+																<Value Type="6" Value="Enable" Text="Enable" />
+																<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+																<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+																<Value Type="6" Value="PIC Version" Text="PIC Version" />
+																<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
+																<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
+																<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
+																<Value Type="6" Value="Bandwidth2 Actual" Text="Bandwidth2 Actual" />
+																<Value Type="6" Value="Bandwidth3 input" Text="Bandwidth3 input" />
+																<Value Type="6" Value="Bandwidth3 Actual" Text="Bandwidth3 Actual" />
+																<Value Type="6" Value="Bandwidth4 input" Text="Bandwidth4 input" />
+																<Value Type="6" Value="Bandwidth4 Actual" Text="Bandwidth4 Actual" />
+																<Value Type="6" Value="Rx Data out polarity input" Text="Rx Data out polarity input" />
+																<Value Type="6" Value="Rx Data out polarity Actual" Text="Rx Data out polarity Actual" />
+																<Value Type="6" Value="Tx Data In polarity Input" Text="Tx Data In polarity Input" />
+																<Value Type="6" Value="Tx Data In polarity Actual" Text="Tx Data In polarity Actual" />
+																<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+																<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+																<Value Type="6" Value="User info" Text="User info" />
+																<Value Type="6" Value="F20" Text="F20" />
+															</Values>
+														</Parameter>
+													</ArrayIndexes>
+												</Parameter>
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+										<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+											<Root Type="0" Operator="1">
+												<Expression Type="1" Operator="3">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+												</Expression>
+												<Expression Type="1" Operator="5">
+													<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="12" />
+												</Expression>
+											</Root>
+										</Data>
+										<Children>
+											<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+												<Data Description="Sets the track bar &apos;%n&apos; to position %v." Action="wPosition" InvokeKind="2">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Param1" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+													</Parameters>
+													<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth4.Slider;" />
+												</Data>
+											</Operation>
+											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+												<Data Description="Runs a keyword test." TestName="WriteCardView" />
+											</Operation>
+											<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+												<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth4.Label" />
+														<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
+														<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+														<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+														<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+									<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+										<Data />
+										<Children>
+											<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+												<Data Description="Posts an error to the test log." MessageType="1">
+													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Invalid input for Port 2 Bandwidth" />
+														<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+														<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+															<Values IsEnum="True">
+																<Value Type="1" Value="100" Text="pmLowest" />
+																<Value Type="1" Value="200" Text="pmLower" />
+																<Value Type="1" Value="300" Text="pmNormal" />
+																<Value Type="1" Value="400" Text="pmHigher" />
+																<Value Type="1" Value="500" Text="pmHighest" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+														<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+													</Parameters>
+												</Data>
+											</Operation>
+										</Children>
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+				<Data Name="End of file" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{FEA1E34F-4C5B-4518-AE3C-5DC8296F856C}">
+		<Items>
+			<Variable Name="State" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{4179147D-BE3B-4378-9292-C3E23E75E5BB}">
+		<Parameter0 Name="PortNum" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="3" Description="" />
+	</Parameters>
+</Root>

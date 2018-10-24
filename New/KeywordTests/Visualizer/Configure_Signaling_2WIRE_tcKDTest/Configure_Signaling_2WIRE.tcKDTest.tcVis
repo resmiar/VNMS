@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{A0CCBA3C-97B6-48F6-AC3F-5C9126095221}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42904.5888773148" objectName="Aliases.VNMS.CardView.TwoWire.BusyIndicator.Grid.Controls.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Configuration.Signaling.UcComboView.Grid.Combobox.Grid.ComboBox" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi157144726540083.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

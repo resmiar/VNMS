@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{EF025B94-37FF-4082-8789-90FFB8F6D78D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42865.5112731481" objectName="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.Controls.CheckboxP1Enable" objectLeft="207" objectTop="193" objectRight="341" objectBottom="207" clickPointX="212" clickPointY="198" imageFileName="tcvi140525229634080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42865.5112962963" objectName="Aliases.VNMS.CardView.CardViewWindow.ButtonWrite" objectLeft="589" objectTop="500" objectRight="640" objectBottom="526" clickPointX="610" clickPointY="512" imageFileName="tcvi140525398434082.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42865.5114814815" objectName="Aliases.VNMS.CardViewWriteConfirmation.ConfirmationWindow.ButtonYes2" objectLeft="138" objectTop="251" objectRight="219" objectBottom="277" clickPointX="171" clickPointY="267" imageFileName="tcvi140526964034084.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="42865.513599537" objectName="Aliases.VNMS.CardView.CardViewWindow.ButtonClose" objectLeft="937" objectTop="500" objectRight="988" objectBottom="526" clickPointX="961" clickPointY="515" imageFileName="tcvi140545293734088.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

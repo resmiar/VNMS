@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{AA178694-0561-431E-B727-F19FAB904915}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.VNMS" Data="61717A697000000001000000360400007801ED52318A8430147DA35B29C8F62AACDD36B6633FD86EAD27D013D888606D6727763662AD9EC00BD88967112C363F3313322ECCB0EDB21F5E7CEF27EF2726FFF2757E038F331B3F19DE6F38E1833116B7F9ABF81FEF37B0EF3BCAB284EBBA5055F59EE6DFAEEB1EF4516CDB06DFF78F69A18320409AA6421F499EE7C7D4AFB46DDB7C7DDBB64892049EE7A1AE6B50DD799E452DD334B1AE2BC671E4701C47CC11217FD334C8B20CC330208A222CCB82A22838C230E4FE071313F2FE7DDFA3AA2A4CD3C4CF22FBE338FEE1B72C8B9F936A6A9A06C330041445119CF2BAAE732DEF4FFFF8EAFEE5F532A737232FC5B3F7973DD41BD423D42BE4F90BF10DCED45D2F" />
+					<Bitmap Name="Aliases.VNMS.CardView" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.FourWire" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.FourWire.TabControlConfiguration" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+					<Bitmap Name="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl" Data="61717A697000000001000000360400007801A5534B4EC330107D483D004760C909B245628960C319D87006EEC19E151207E000EC90104242424815E5534129A54DF38FED7C98B16393A812156DA2F12463BF9737CFCEEE81D783BE3C1AB729369BD8C0163DD1D5CC9B1733D658EF3EDAF3B04A1C1FEE68DCCDE539541298886690E1376430819C7F41F89F10B311C4F403F9F805D97B1FE9EB03E2A73BC4FD5B872FD208A7FB3DBC5D5DE8CC1CFCDEAEF1B3980C717D76A2EBC9F3FD2F3E8BC11CAC83D729D2C159068647F863D2415A4807D7F3D100E9F0D1E1CB3C45D170687C3C373CE15467AE713087CEA48339D837EEBF14192C07CF174E87AFD7B775683CE9E05E1C5EE68E83E739D80B453AAC27B66E33FB6AF1552151B6386C2FAC43EF4DEC6B4FACAF766F1CBE2CD0E11029F593902711F91A2E70D8FDB5F8BA2A51351C95128D96E51C0E5FD319FE1707F5437BD3C12FE53067447B42BEAAC85FC47738142AF587AFC461BFCF67609560FC7A7F6F8D1F5B1D3A8B" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="Fourwire_Settings">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="4" VariableName="State">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Fourwire_Settings">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Rx Test Tone input">
+											<Values>
+												<Value Type="6" Value="Enable" Text="Enable" />
+												<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+												<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+												<Value Type="6" Value="Tx Level File value" Text="Tx Level File value" />
+												<Value Type="6" Value="Tx Level Actual" Text="Tx Level Actual" />
+												<Value Type="6" Value="Rx Level File value" Text="Rx Level File value" />
+												<Value Type="6" Value="Rx Level Actual" Text="Rx Level Actual" />
+												<Value Type="6" Value="Signaling Index" Text="Signaling Index" />
+												<Value Type="6" Value="Signaling Actual" Text="Signaling Actual" />
+												<Value Type="6" Value="PortMode Index" Text="PortMode Index" />
+												<Value Type="6" Value="PortMode Actual" Text="PortMode Actual" />
+												<Value Type="6" Value="Tx Test Tone input" Text="Tx Test Tone input" />
+												<Value Type="6" Value="Tx Test Tone Actual" Text="Tx Test Tone Actual" />
+												<Value Type="6" Value="Rx Test Tone input" Text="Rx Test Tone input" />
+												<Value Type="6" Value="Rx Test Tone Actual" Text="Rx Test Tone Actual" />
+												<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+												<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+												<Value Type="6" Value="Foorce busy state" Text="Foorce busy state" />
+												<Value Type="6" Value="Force Busy Actual" Text="Force Busy Actual" />
+												<Value Type="6" Value="F20" Text="F20" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Sets the state of the &apos;%n&apos; check box to %p1." Action="ClickButton">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="0" />
+									</Parameters>
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Test.RxTestTone.CheckboxP1RxTestTone;" />
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+						<Data />
+						<Children>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="0">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+										<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+										<Data Description="Sets the state of the &apos;%n&apos; check box to %p1." Action="ClickButton">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
+											</Parameters>
+											<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Test.RxTestTone.CheckboxP1RxTestTone;" />
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+								<Data />
+								<Children>
+									<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+										<Data LabelName="Out of the loop" />
+									</Operation>
+								</Children>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="WriteCardView" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Test.RxTestTone.LabelDisabled" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Fourwire_Settings">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Rx Test Tone Actual">
+											<Values>
+												<Value Type="6" Value="Enable" Text="Enable" />
+												<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
+												<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
+												<Value Type="6" Value="Tx Level File value" Text="Tx Level File value" />
+												<Value Type="6" Value="Tx Level Actual" Text="Tx Level Actual" />
+												<Value Type="6" Value="Rx Level File value" Text="Rx Level File value" />
+												<Value Type="6" Value="Rx Level Actual" Text="Rx Level Actual" />
+												<Value Type="6" Value="Signaling Index" Text="Signaling Index" />
+												<Value Type="6" Value="Signaling Actual" Text="Signaling Actual" />
+												<Value Type="6" Value="PortMode Index" Text="PortMode Index" />
+												<Value Type="6" Value="PortMode Actual" Text="PortMode Actual" />
+												<Value Type="6" Value="Tx Test Tone input" Text="Tx Test Tone input" />
+												<Value Type="6" Value="Tx Test Tone Actual" Text="Tx Test Tone Actual" />
+												<Value Type="6" Value="Rx Test Tone input" Text="Rx Test Tone input" />
+												<Value Type="6" Value="Rx Test Tone Actual" Text="Rx Test Tone Actual" />
+												<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
+												<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
+												<Value Type="6" Value="Foorce busy state" Text="Foorce busy state" />
+												<Value Type="6" Value="Force Busy Actual" Text="Force Busy Actual" />
+												<Value Type="6" Value="F20" Text="F20" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+				<Data Name="Out of the loop" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{307EE336-FC53-40CB-988E-4200DB5C57AC}">
+		<Items>
+			<Variable Name="State" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue StrValue="3000" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{9AF20B7E-4F00-4806-86E3-87C62B68FFB0}" />
+</Root>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42923.6306079167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{47F6C0EC-2C01-4C54-A68E-4AC7682F73A4}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
+				<Prp name="relpath" type="S" value="7_7_2017_3_08 PM_04_524\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42923.6349382176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EBEC6E52-AD69-45C0-8087-5B66E15BD56C}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
+				<Prp name="relpath" type="S" value="7_7_2017_3_14 PM_18_662\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42923.6384620139"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BFF7BD8D-A07E-451F-986C-87FA90D888F7}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
+				<Prp name="relpath" type="S" value="7_7_2017_3_19 PM_23_119\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42923.6401810764"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{843303AD-6F22-40B2-B536-0C19AA56CA3E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
+				<Prp name="relpath" type="S" value="7_7_2017_3_21 PM_51_645\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42923.6424184259"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C538E70A-3B57-49A0-9DBD-6DEAC36C1F77}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
+				<Prp name="relpath" type="S" value="7_7_2017_3_25 PM_04_952\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Test1" key="{6F620B9B-3A25-4845-A97B-B2F25877BFF4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test1.tcKDTest" />
+		</child>
+		<child name="OpenMappingView" key="{92238A3A-EAA7-452A-9222-A769A487CA75}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="OpenMappingView.tcKDTest" />
+		</child>
+		<child name="SelectSourceNode" key="{59C6F7B0-0E56-4A32-BB17-6C6872EB899F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectSourceNode.tcKDTest" />
+		</child>
+		<child name="SelectDestinationNode" key="{A23A250F-A9B6-49ED-B651-6C45183C1290}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectDestinationNode.tcKDTest" />
+		</child>
+		<child name="SelectSourcePort" key="{94044771-89FC-4D50-8DFF-1869DD41F1D7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectSourcePort.tcKDTest" />
+		</child>
+		<child name="SelectSecondPortForMapping" key="{9A7D2F69-3135-4202-8341-9D57C182FF5A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectSecondPortForMapping.tcKDTest" />
+		</child>
+		<child name="WriteMapping" key="{E231094A-CED7-43C7-A576-EAE6232D0A2D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="WriteMapping.tcKDTest" />
+		</child>
+		<child name="ASYNC_10" key="{5F8B7E8D-7B35-42A5-8069-114C93CA0230}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_10.tcKDTest" />
+		</child>
+		<child name="ASYNC_12" key="{804E9D72-DD15-4F03-8D8D-B0092053C0F3}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_12.tcKDTest" />
+		</child>
+		<child name="ASYNC_13" key="{0DCCD26F-FFBF-4708-80E8-8EFB95C91092}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_13.tcKDTest" />
+		</child>
+		<child name="ASYNC_11" key="{55233485-24F5-4732-84F6-778D5293FD4F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_11.tcKDTest" />
+		</child>
+		<child name="ASYNC_14" key="{B4C5532E-E359-4FD9-8C0E-6F1082CB7BAB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_14.tcKDTest" />
+		</child>
+		<child name="AddIP" key="{0427F2A5-C984-44D3-B083-6AEB530014CF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\AddIP.tcKDTest" />
+		</child>
+		<child name="AddMapping" key="{EAE4F13E-A1B0-4593-AD9C-0C3CCE4ED5F6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\AddMapping.tcKDTest" />
+		</child>
+		<child name="ASYNC_01_Check_Cards" key="{C884F078-FB39-4FDE-ACDC-4CB0AA1D54DA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_01_Check_Cards.tcKDTest" />
+		</child>
+		<child name="ASYNC_02_CheckFPGA" key="{4EDF1207-DE50-4415-A85A-0EC9B5811033}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_02_CheckFPGA.tcKDTest" />
+		</child>
+		<child name="ASYNC_03_Enable_Disable_Ports" key="{6B2C5CC1-B949-4E62-982B-000101B350ED}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_03_Enable_Disable_Ports.tcKDTest" />
+		</child>
+		<child name="ASYNC_04_Check_Alarms" key="{1556212C-FBF9-49A5-A576-9BF1924CCF30}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_04_Check_Alarms.tcKDTest" />
+		</child>
+		<child name="ASYNC_05_Configure_Baud_Rate" key="{B87E5076-BB79-4125-883C-06755550EE87}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_05_Configure_Baud_Rate.tcKDTest" />
+		</child>
+		<child name="ASYNC_06_Configure_Character_Length" key="{AC96B1FD-A323-424A-883F-3B119D9BD553}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_06_Configure_Character_Length.tcKDTest" />
+		</child>
+		<child name="ASYNC_07_Configure_DTRFlag" key="{4423ECB2-A1E6-4558-8453-D478AF3FEE63}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_07_Configure_DTRFlag.tcKDTest" />
+		</child>
+		<child name="ASYNC_08_Configure_RTSFlag" key="{8DCD8D0A-70D2-4049-A431-96E740D9E56A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_08_Configure_RTSFlag.tcKDTest" />
+		</child>
+		<child name="ASYNC_09_Configure_Loopback" key="{EA137F6B-995E-4D7E-855A-CAC6D62346FE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_09_Configure_Loopback.tcKDTest" />
+		</child>
+		<child name="ASYNC_15_User_Info" key="{5F8E342C-122B-4D59-9130-F590A3A5A7EC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_15_User_Info.tcKDTest" />
+		</child>
+		<child name="ASYNC_Loopback_Local" key="{388F4E66-7FD0-41A0-8312-9CC1A974F6AF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_Loopback_Local.tcKDTest" />
+		</child>
+		<child name="ASYNC_Loopback_Remote" key="{1F0E11E7-19A9-4A09-83B5-CB54ADC8F6EC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_Loopback_Remote.tcKDTest" />
+		</child>
+		<child name="ASYNC_UpdateInfo" key="{12ABF260-CA5C-4E7C-B9FD-7D62B4A2AB27}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ASYNC_UpdateInfo.tcKDTest" />
+		</child>
+		<child name="AutoDiscoverNetwork" key="{C1214C19-3F7B-4087-9FE6-538F5505A0E2}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\AutoDiscoverNetwork.tcKDTest" />
+		</child>
+		<child name="CheckCardsInNodeView" key="{B9B4A253-098E-45E5-BA02-3A2413350375}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CheckCardsInNodeView.tcKDTest" />
+		</child>
+		<child name="CheckLocalLoopbackAlarm" key="{2A314B8F-85AA-4FD4-B5AB-104C0FF99E12}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CheckLocalLoopbackAlarm.tcKDTest" />
+		</child>
+		<child name="CheckNodeAlarmInRetrieveWindow" key="{AA1CF28D-9D11-4C7A-B7A2-E7B70C7A5519}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CheckNodeAlarmInRetrieveWindow.tcKDTest" />
+		</child>
+		<child name="CheckRemoteLoopbackAlarm" key="{B40B69A7-1095-41B4-B273-6BF1E7859D32}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CheckRemoteLoopbackAlarm.tcKDTest" />
+		</child>
+		<child name="ChooseToAutoDiscover" key="{5BF2DFA0-9064-439C-B2D6-CC0094CACCD4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ChooseToAutoDiscover.tcKDTest" />
+		</child>
+		<child name="ClickDiscover" key="{D56278F8-3187-49FB-9AD7-152100B1E217}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ClickDiscover.tcKDTest" />
+		</child>
+		<child name="CloseCardView" key="{506D5FE8-798A-415A-9F87-A1F77A97DFA8}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CloseCardView.tcKDTest" />
+		</child>
+		<child name="CloseNodeView" key="{1DCD1331-3353-4D46-98BE-80623BB46CC6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CloseNodeView.tcKDTest" />
+		</child>
+		<child name="CloseRetrieveNodeAlarmView" key="{FC491CF4-8F5E-4894-B74D-82DB12C65F3A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\CloseRetrieveNodeAlarmView.tcKDTest" />
+		</child>
+		<child name="EnterCredentials" key="{5D7355E1-A5F8-434A-9CDC-70EB1F218CFA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\EnterCredentials.tcKDTest" />
+		</child>
+		<child name="ForceNeighborNodesOffline" key="{C6BB4DD6-520C-49BC-B15C-D7697BBF2B47}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ForceNeighborNodesOffline.tcKDTest" />
+		</child>
+		<child name="openCardViewByDoubleClick" key="{1A21B386-8038-435D-98BB-2A3E7DE7B20A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\openCardViewByDoubleClick.tcKDTest" />
+		</child>
+		<child name="OpenNodeView" key="{741318F7-7731-468F-A49A-05FC45CC3C19}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenNodeView.tcKDTest" />
+		</child>
+		<child name="OpenSOE_report" key="{E3952C5F-48E6-4B74-81C7-A44D8D6F0DE1}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenSOE_report.tcKDTest" />
+		</child>
+		<child name="OpenUserInfo" key="{D54607BD-82AC-4331-91D1-654FD1E9C3A0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenUserInfo.tcKDTest" />
+		</child>
+		<child name="ResetCardSettings" key="{1EB5EF0E-10D8-4769-8E45-F492408B711E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ResetCardSettings.tcKDTest" />
+		</child>
+		<child name="RetrieveNodeAlarm" key="{2D7FB211-EEA8-40E1-B086-A25F06017FBF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\RetrieveNodeAlarm.tcKDTest" />
+		</child>
+		<child name="SelectFirstNodeForMapping" key="{C21F982B-57AA-4584-B05C-52E9C7F54BCF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\SelectFirstNodeForMapping.tcKDTest" />
+		</child>
+		<child name="SelectSourcePortToMap" key="{DA5416E4-0010-4579-8869-E057EC8538AC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\SelectSourcePortToMap.tcKDTest" />
+		</child>
+		<child name="VerifyCardView" key="{59B9B521-0C77-4EE2-ABFF-6731EBCD423C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\VerifyCardView.tcKDTest" />
+		</child>
+		<child name="VerifyUserInfo" key="{EA74FFF5-E346-460F-8307-F582D51538EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\VerifyUserInfo.tcKDTest" />
+		</child>
+		<child name="WriteAndCloseCardView" key="{B35D1567-B642-46AC-BE35-FC231AA5943C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\WriteAndCloseCardView.tcKDTest" />
+		</child>
+		<child name="WriteCardView" key="{D467CBB5-A0AB-4514-BB31-6BF867466D1F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\WriteCardView.tcKDTest" />
+		</child>
+		<child name="CheckFPGAVersion_4WIRE" key="{F49017A6-05DD-4A82-B28A-BBD87BD343CC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckFPGAVersion_4WIRE.tcKDTest" />
+		</child>
+		<child name="Enable_DisablePort_4WIRE" key="{EB3AF600-6FD1-4BB5-B4FB-5B14D6C927D6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Enable_DisablePort_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_TXLevel_4WIRE" key="{31C95372-8250-439F-B910-A4F690314CE5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TXLevel_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_RXLevel_4WIRE" key="{5B538893-808C-49E8-A37F-65FE2F87C087}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RXLevel_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_Signaling_4WIRE" key="{447B5335-4412-4C1E-AA17-3C082B004D25}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Signaling_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_PortMode_4WIRE" key="{3BE0F982-6D6A-4995-913C-049A8E4155CF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_PortMode_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_TXTone_4WIRE" key="{E8C5244B-F00E-4F28-A633-CAD98622F2DE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TXTone_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_RXTone_4WIRE" key="{AC18F6AA-A15A-4AEF-AC3E-620A5CC70D83}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RXTone_4WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_ForceBusy_4WIRE" key="{F2ED3BFB-4394-40C7-B992-BD98DFDE1E56}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_ForceBusy_4WIRE.tcKDTest" />
+		</child>
+		<child name="Set_Loopback_4WIRE" key="{65E5BFD9-9139-466C-8998-F88139E7F83F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Set_Loopback_4WIRE.tcKDTest" />
+		</child>
+		<child name="Check_LoopbackAlarms_4WIRE" key="{0F57C6AB-327D-4145-B7BB-5A5F2D5C0C27}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Check_LoopbackAlarms_4WIRE.tcKDTest" />
+		</child>
+		<child name="CheckAlarm_4WIRE" key="{EED217F6-2163-4C09-8DA5-8CDAD3989431}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckAlarm_4WIRE.tcKDTest" />
+		</child>
+		<child name="SelectPortSettingsASYNC" key="{41521E96-33AF-4848-92CA-5FA2162835B6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\SelectPortSettingsASYNC.tcKDTest" />
+		</child>
+		<child name="SelectPortTabs_4WIRE" key="{EF66A48B-2C0D-4BF8-A5DB-AB90426B9F8F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPortTabs_4WIRE.tcKDTest" />
+		</child>
+		<child name="CheckValuesInBundleSettings" key="{C0B49B89-AD7F-4B54-8865-17F497ECC0FF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckValuesInBundleSettings.tcKDTest" />
+		</child>
+		<child name="UpdateBundleSettings" key="{159D4BC2-6FA2-4C17-8D04-81060BC35ECE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="CloseMappingView" key="{4A23D772-AC70-45DF-B3A8-D313D13D03A5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CloseMappingView.tcKDTest" />
+		</child>
+		<child name="ASYNC_EnableDisable" key="{8465C117-6377-4DB4-87A7-23B5299B874D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_EnableDisable.tcKDTest" />
+		</child>
+		<child name="ASYNC_CheckFPGAVersion" key="{14C06EEB-8B32-4EA9-AC01-5A86C416257D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_CheckFPGAVersion.tcKDTest" />
+		</child>
+		<child name="ASYNC_selectPortStatusTab" key="{58E9747C-0B12-44A6-BFA1-781F371C0749}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_selectPortStatusTab.tcKDTest" />
+		</child>
+		<child name="ASYNC_CheckAlarms" key="{E81DAF5B-ADD5-45E5-B7B3-22BD31E65032}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_CheckAlarms.tcKDTest" />
+		</child>
+		<child name="ASYNC_BaudRate" key="{147ACC4E-1011-4502-87DF-BA6C16FBA8F9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_BaudRate.tcKDTest" />
+		</child>
+		<child name="ASYNC_CharacterLength" key="{24D7BCAD-B969-405D-907B-4855951D3C7E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_CharacterLength.tcKDTest" />
+		</child>
+		<child name="ASYNC_DTR" key="{3C53B1B7-BA2B-4870-B663-17B6045DE837}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_DTR.tcKDTest" />
+		</child>
+		<child name="ASYNC_RTS" key="{16730EA4-A747-4BAA-9F58-29395E91201B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_RTS.tcKDTest" />
+		</child>
+		<child name="FourWire_01_Check_Cards" key="{E62F55AB-5200-4981-BADE-00651642665F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_01_Check_Cards.tcKDTest" />
+		</child>
+		<child name="FourWire_02" key="{D27FD8E0-0285-4A10-95DF-0FD52DE3B012}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_02.tcKDTest" />
+		</child>
+		<child name="FourWire_03" key="{2C9E1FEB-01D6-420E-8A23-694216735341}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_03.tcKDTest" />
+		</child>
+		<child name="FourWire_04" key="{04E1464E-676E-487C-8CA2-E329C8F90AC8}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_04.tcKDTest" />
+		</child>
+		<child name="FourWire_05" key="{1EC23F7F-2832-4D2E-801B-90D5BB133956}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_05.tcKDTest" />
+		</child>
+		<child name="FourWire_06" key="{8AACF5C4-B686-4BB4-9AA5-EDF84B477BFE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_06.tcKDTest" />
+		</child>
+		<child name="FourWire_07" key="{C58A96A4-F6F2-40D0-AA7F-063A3877F52C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_07.tcKDTest" />
+		</child>
+		<child name="FourWire_08" key="{9537918E-7400-4BEE-A06E-F753A3C8F3ED}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_08.tcKDTest" />
+		</child>
+		<child name="FourWire_09" key="{B33928F9-420F-4E05-A2EA-C2554299D85C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_09.tcKDTest" />
+		</child>
+		<child name="FourWire_10" key="{DCB2967E-4CD7-474D-8B93-2F031E0FCE73}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_10.tcKDTest" />
+		</child>
+		<child name="FourWire_11" key="{0016466C-ECAE-4210-B59A-25BDB7498A79}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_11.tcKDTest" />
+		</child>
+		<child name="FourWire_12" key="{E2106C5E-8AA6-4648-8541-A535F27CF78B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_12.tcKDTest" />
+		</child>
+		<child name="FourWire_13" key="{F02B2CBE-DDFA-457F-88A6-BF700FC5CD41}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_13.tcKDTest" />
+		</child>
+		<child name="FourWire_14" key="{C3248028-8797-47FF-BE73-21B824F2CAB0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_14.tcKDTest" />
+		</child>
+		<child name="FourWire_15" key="{3C1A91BE-01AE-4D8C-98FA-7925A8C93B82}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FourWire_15.tcKDTest" />
+		</child>
+		<child name="Enable_Disable_2WIRE" key="{A952EFF7-D407-477B-88E0-7083EF55CF06}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Enable_Disable_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_TxTone_2WIRE" key="{43AE3974-6358-46EE-A3C9-D78EB6FBEF8F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TxTone_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_RXTone_2WIRE" key="{04C7DB2D-B09D-462D-8035-45254E760611}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RXTone_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_ForceBusy_2WIRE" key="{2AC85BCA-73CA-47F2-AA06-7FF893D094B6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_ForceBusy_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_Signaling_2WIRE" key="{A0CCBA3C-97B6-48F6-AC3F-5C9126095221}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Signaling_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_PortMode_2WIRE" key="{94E8C0FB-F792-4ED7-9720-4A8852F6EA10}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_PortMode_2WIRE.tcKDTest" />
+		</child>
+		<child name="CheckFPGAVersion_2WIRE" key="{8B545A39-3940-4BF3-9F05-9FB8179FBF16}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckFPGAVersion_2WIRE.tcKDTest" />
+		</child>
+		<child name="SelectPortTabs_2WIRE" key="{79BEA7DB-FA1C-44D9-B148-F1D106BACD08}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPortTabs_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_TXLevel_2WIRE" key="{1A288FED-702A-4BC5-BC0A-E9651B89ED87}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TXLevel_2WIRE.tcKDTest" />
+		</child>
+		<child name="Configure_RXLevel_2WIRE" key="{89244EC7-8BDF-4087-A505-0BBF01C27D3C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RXLevel_2WIRE.tcKDTest" />
+		</child>
+		<child name="Set_Loopback_2WIRE" key="{061D6197-1A0A-49E4-BC87-5EA1098365C6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Set_Loopback_2WIRE.tcKDTest" />
+		</child>
+		<child name="TwoWire_01" key="{987934B1-3CCA-421C-BF25-E2BDD8704A11}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_01.tcKDTest" />
+		</child>
+		<child name="TwoWire_02" key="{7192B6E9-787E-47DB-9C92-DE2EEEC9B2C7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_02.tcKDTest" />
+		</child>
+		<child name="TwoWire_03" key="{DDF47873-020C-466A-9B1B-BB430F394E12}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_03.tcKDTest" />
+		</child>
+		<child name="TwoWire_04" key="{F66E06E7-482D-4E8E-8FA0-9485BFA4282E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_04.tcKDTest" />
+		</child>
+		<child name="TwoWire_05" key="{79FA5A66-5E41-4B1B-86C7-B22FEDF79052}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_05.tcKDTest" />
+		</child>
+		<child name="TwoWire_06" key="{175659BB-0545-4BBD-92BD-00BE964425C3}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_06.tcKDTest" />
+		</child>
+		<child name="TwoWire_07" key="{93694410-FCB6-48DD-A1EF-7AF2144D89D0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_07.tcKDTest" />
+		</child>
+		<child name="TwoWire_08" key="{583D3062-1BB5-419F-9C17-C0784AC1B003}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_08.tcKDTest" />
+		</child>
+		<child name="TwoWire_09" key="{1FC5D46E-A361-489F-AB3A-D53D10279233}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_09.tcKDTest" />
+		</child>
+		<child name="TwoWire_10" key="{1265141E-A137-4543-8045-DE4D2D38681F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_10.tcKDTest" />
+		</child>
+		<child name="TwoWire_11" key="{02744F37-681E-41E4-A1AF-27D03AA7D36A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_11.tcKDTest" />
+		</child>
+		<child name="TwoWire_12" key="{0D2BDC7D-FEBE-4C40-A15A-403A8F873DAA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_12.tcKDTest" />
+		</child>
+		<child name="TwoWire_13" key="{25DD9270-9F67-4C77-AD07-9BC5A3A6E4DA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_13.tcKDTest" />
+		</child>
+		<child name="TwoWire_14" key="{B1BEE1A8-85C6-48A9-B69C-1E8A1FB97F51}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_14.tcKDTest" />
+		</child>
+		<child name="TwoWire_15" key="{C5FB5B68-8907-43C3-974E-61021FC78839}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_15.tcKDTest" />
+		</child>
+		<child name="TwoWire_16" key="{53A929B1-F9E4-4E58-BA32-3CC1D43EEC06}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_16.tcKDTest" />
+		</child>
+		<child name="TwoWire_17" key="{C53287A6-90AA-453A-B520-3636C6B8A31B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_17.tcKDTest" />
+		</child>
+		<child name="TwoWire_18" key="{ED29DB76-12BD-437D-A60E-A729F874F0DE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_18.tcKDTest" />
+		</child>
+		<child name="TwoWire_19" key="{E533978D-8055-499C-9169-11AECDD8C176}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="TwoWire_19.tcKDTest" />
+		</child>
+		<child name="T1E1_01_Check_Cards" key="{CEF69873-8C11-467A-8CC7-90D0FC691E61}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_01_Check_Cards.tcKDTest" />
+		</child>
+		<child name="T1E1_02_Check_Version" key="{35AB7788-3796-4446-96AE-CBC10464ACFD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_02_Check_Version.tcKDTest" />
+		</child>
+		<child name="CheckVersion_T1E1" key="{B2C4A4A6-AA5D-4770-B92F-9C5AC806FFE7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckVersion_T1E1.tcKDTest" />
+		</child>
+		<child name="EnableDisable_T1E1" key="{8C5DDA19-0E80-40D7-8AAE-2BC13E0061D0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableDisable_T1E1.tcKDTest" />
+		</child>
+		<child name="CheckEnableAlarms_T1E1" key="{A7420E8F-F6D4-44EE-9F04-1020C4BD5BB6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckEnableAlarms_T1E1.tcKDTest" />
+		</child>
+		<child name="T1E1_03_EnableDisablePort" key="{389CB1E0-7AF3-4714-82EB-3D5FC5BB3513}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_03_EnableDisablePort.tcKDTest" />
+		</child>
+		<child name="T1E1_04_CheckAlarms" key="{D16BC684-ABBD-46B0-AB05-B6336D5C6E83}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_04_CheckAlarms.tcKDTest" />
+		</child>
+		<child name="CheckAlarmsClear_LoopbackPlug" key="{BCB1A4C5-DA13-489B-8EC5-7B814027E5EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckAlarmsClear_LoopbackPlug.tcKDTest" />
+		</child>
+		<child name="T1E1_05_CheckAlarmsClearWithLoopbackPlug" key="{A06D901F-E65C-4DA3-B609-88A4C2036420}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_05_CheckAlarmsClearWithLoopbackPlug.tcKDTest" />
+		</child>
+		<child name="T1E1_mode" key="{D292DC92-0270-4F8F-8DF9-73EE9A03BBAB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_mode.tcKDTest" />
+		</child>
+		<child name="Configure_PortMode_T1E1" key="{96570671-48EA-4419-9A84-A29AAE3AE788}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_PortMode_T1E1.tcKDTest" />
+		</child>
+		<child name="ConfigureClkSource_T1E1" key="{0A5DD898-7566-454B-8171-A49AD2567FEA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureClkSource_T1E1.tcKDTest" />
+		</child>
+		<child name="FRAMER_01_CheckCards" key="{4D3808BA-1E0A-44F5-8925-78067554A790}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_01_CheckCards.tcKDTest" />
+		</child>
+		<child name="CheckIfReqdCardAvailable" key="{8235F634-15FF-44E7-9670-542E296B5FDD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckIfReqdCardAvailable.tcKDTest" />
+		</child>
+		<child name="CheckIfCardAvailableInThisNode" key="{06564BBB-AF5B-4FE4-9F68-FC697D250CC9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckIfCardAvailableInThisNode.tcKDTest" />
+		</child>
+		<child name="T1E1_06_Configure_T1E1Mode" key="{C3734E8D-AB77-4167-8DFD-C0AA131BECDB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_06_Configure_T1E1Mode.tcKDTest" />
+		</child>
+		<child name="ConfigureT1Settings_T1E1" key="{6E9B4447-101E-481D-8980-2FED56CE770A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureT1Settings_T1E1.tcKDTest" />
+		</child>
+		<child name="ConfigureE1Settings_T1E1" key="{C394D668-B091-4A7C-A98B-859AB5037497}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureE1Settings_T1E1.tcKDTest" />
+		</child>
+		<child name="Configure_Signaling" key="{9F8892A9-737C-4203-B326-3719DA174F5D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Signaling.tcKDTest" />
+		</child>
+		<child name="ResetCounters_T1E1" key="{FDC82A26-74F7-411E-B2AF-CF9958C97322}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ResetCounters_T1E1.tcKDTest" />
+		</child>
+		<child name="CheckVersion_FRAMER" key="{57B273B8-EFB0-4B40-B225-7EBE411FB73D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckVersion_FRAMER.tcKDTest" />
+		</child>
+		<child name="EnableDisable_FRAMER" key="{5385E182-210E-4580-B918-3E21BA45F71D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableDisable_FRAMER.tcKDTest" />
+		</child>
+		<child name="CheckEnableAlarms_FRAMER" key="{5C55BCC4-50F2-47B6-9BB1-1A86DE1F7C22}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckEnableAlarms_FRAMER.tcKDTest" />
+		</child>
+		<child name="EnableT1E1" key="{AC227453-1EE0-40B8-B806-8FA1A57A3034}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableT1E1.tcKDTest" />
+		</child>
+		<child name="Enable_FRAMER" key="{36F4A9FC-CA38-4A16-B444-A0FAA04C8416}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Enable_FRAMER.tcKDTest" />
+		</child>
+		<child name="FRAMER_Mode" key="{01B433C8-D599-41AF-8072-9DE90B163D4F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_Mode.tcKDTest" />
+		</child>
+		<child name="Configure_PortMode_FRAMER" key="{7F183C77-39F1-4960-8FAC-DF91E9E64A6E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_PortMode_FRAMER.tcKDTest" />
+		</child>
+		<child name="ConfigureClkSource_FRAMER" key="{CAC92333-47E6-49AB-A513-7C6176CCEAED}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureClkSource_FRAMER.tcKDTest" />
+		</child>
+		<child name="CheckAlarmsClear_Loopback_FRAMER" key="{DB2CAA72-7B9E-4E09-BD2D-E6C5758DD876}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckAlarmsClear_Loopback_FRAMER.tcKDTest" />
+		</child>
+		<child name="ConfigureT1Settings_FRAMER" key="{3421F72E-ABEB-4B3D-A6B4-F62D480EC63B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureT1Settings_FRAMER.tcKDTest" />
+		</child>
+		<child name="ConfigureE1Settings_FRAMER" key="{56B78970-4DA9-4A08-9BEB-98B29CA15511}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureE1Settings_FRAMER.tcKDTest" />
+		</child>
+		<child name="ResetCounters_FRAMER" key="{19131963-D0AC-425C-9936-89DD721CC6CB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ResetCounters_FRAMER.tcKDTest" />
+		</child>
+		<child name="T1E1_07_Configure_PortT1E1Mode" key="{187355A3-57FD-4E9A-AF90-AC648B23B303}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_07_Configure_PortT1E1Mode.tcKDTest" />
+		</child>
+		<child name="T1E1_08_Configure_TxClkSource" key="{39C4CD84-3B69-40AF-9135-6EEE81A0D04A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_08_Configure_TxClkSource.tcKDTest" />
+		</child>
+		<child name="T1E1_09_Configure_Loopback" key="{6388195F-9297-4C8D-A181-318A7E94A5BC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_09_Configure_Loopback.tcKDTest" />
+		</child>
+		<child name="T1E1_10_Configure_T1Settings" key="{709D6FF2-718B-4E85-AA3B-9290187E80CA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_10_Configure_T1Settings.tcKDTest" />
+		</child>
+		<child name="T1E1_11_Configure_E1Settings" key="{1BC37CFA-152F-4E06-8658-BF6F6958CAEA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_11_Configure_E1Settings.tcKDTest" />
+		</child>
+		<child name="T1E1_12_Configure_Signaling" key="{835C2C7B-E1F7-468A-B5B8-AA5A08E191E5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_12_Configure_Signaling.tcKDTest" />
+		</child>
+		<child name="T1E1_13_VerifyMapping" key="{52BA610D-15FF-4E58-B527-603A7DECC880}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_13_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="T1E1_14_VerifyLoopbackPlugClearsAlarms" key="{7E62BCF8-5A4C-435E-BD88-62662F71DAC4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_14_VerifyLoopbackPlugClearsAlarms.tcKDTest" />
+		</child>
+		<child name="T1E1_15_VerifyResetCounters" key="{767B213F-227A-44D8-951F-BD348E7EA3EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_15_VerifyResetCounters.tcKDTest" />
+		</child>
+		<child name="T1E1_16_VerifyBundleSettings" key="{DA5718C4-3263-40C5-8FB3-590A8AFA6830}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_16_VerifyBundleSettings.tcKDTest" />
+		</child>
+		<child name="T1E1_17_UpdateBundleSettings" key="{5048F14F-A7D6-40F1-9902-C7F9D769EB58}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_17_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="T1E1_18_VerifyUserInfo" key="{721679BF-E7DD-431C-93FB-4C900C0C8594}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="T1E1_18_VerifyUserInfo.tcKDTest" />
+		</child>
+		<child name="FRAMER_02_Check_Version" key="{F881621A-FAEF-4C7A-9C31-10343B2BB553}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_02_Check_Version.tcKDTest" />
+		</child>
+		<child name="FRAMER_03_EnableDisablePort" key="{4D0DF57A-766C-4BD8-8178-60E2819FDDCE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_03_EnableDisablePort.tcKDTest" />
+		</child>
+		<child name="FRAMER_04_CheckEnableAlarms" key="{79F6C54D-02D8-428D-9473-4B5A363A5C21}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_04_CheckEnableAlarms.tcKDTest" />
+		</child>
+		<child name="FRAMER_05_AlarmsClearWithLoopbackPlug" key="{0B699D72-2672-4EEB-A0DB-2F5096FA7A32}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_05_AlarmsClearWithLoopbackPlug.tcKDTest" />
+		</child>
+		<child name="FRAMER_06_Configure_PortFramerMode" key="{7DF0B42E-818A-4702-9293-FE20698034E1}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_06_Configure_PortFramerMode.tcKDTest" />
+		</child>
+		<child name="FRAMER_07_PortFramerMode" key="{51243ADC-49F3-4D0E-A9CD-2C5515D689BC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_07_PortFramerMode.tcKDTest" />
+		</child>
+		<child name="FRAMER_08_Configure_TxClkSource" key="{5B5962E1-AC9F-43CB-96F4-361A2BAFF31F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_08_Configure_TxClkSource.tcKDTest" />
+		</child>
+		<child name="FRAMER_09_Configure_loopback" key="{1145F87A-486A-40BB-94F5-22C208C91521}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_09_Configure_loopback.tcKDTest" />
+		</child>
+		<child name="FRAMER_10_Configure_T1Settings" key="{BD9375CF-8619-477E-9A35-AE3D495F1557}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_10_Configure_T1Settings.tcKDTest" />
+		</child>
+		<child name="FRAMER_11_Configure_E1Settings" key="{C5CE29B4-30F8-4A14-ADCD-32D63087DF52}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_11_Configure_E1Settings.tcKDTest" />
+		</child>
+		<child name="FRAMER_12_Configure_Signaling" key="{59DE0FED-178E-493F-B839-F2024C7A1D3E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_12_Configure_Signaling.tcKDTest" />
+		</child>
+		<child name="FRAMER_13_VerifyMapping" key="{361B5092-0F40-41BA-A2CF-0F7378C5BE47}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_13_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="FRAMER_14_VerifyAlarmsClearWithLoopbackPlug" key="{73D25B5C-CE66-4811-91A2-3768F580A780}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_14_VerifyAlarmsClearWithLoopbackPlug.tcKDTest" />
+		</child>
+		<child name="FRAMER_15_VerifyResetCounters" key="{DD3365E4-C97F-4D01-9EDD-518B110B6933}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_15_VerifyResetCounters.tcKDTest" />
+		</child>
+		<child name="FRAMER_16_VerifyBundleSettings" key="{C2E701E4-262F-45E8-B9EC-C5CE95F08F8E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_16_VerifyBundleSettings.tcKDTest" />
+		</child>
+		<child name="FRAMER_17_UpdateBundleSettings" key="{47FF12CF-13D8-4245-BC6D-6516642B85A5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_17_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="FRAMER_18_VerifyUserInfo" key="{2E7A7757-1362-41AD-932A-A0049EF217C5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FRAMER_18_VerifyUserInfo.tcKDTest" />
+		</child>
+		<child name="CheckVersion_FXO" key="{A33563A6-BFED-4E81-B657-A55D3B931765}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckVersion_FXO.tcKDTest" />
+		</child>
+		<child name="CheckEnableDisable_FXO" key="{389461BA-47BD-4895-B79A-65F3C688026A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckEnableDisable_FXO.tcKDTest" />
+		</child>
+		<child name="Configure_TXLevel_FXO" key="{FCB24041-7253-42B1-93E5-F4BF830A1B4B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TXLevel_FXO.tcKDTest" />
+		</child>
+		<child name="Configure_RXLevel_FXO" key="{55DE37B5-FDEB-428D-9E82-D3B68429CBAC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RXLevel_FXO.tcKDTest" />
+		</child>
+		<child name="Configure_TxTestTone_FXO" key="{E0A72E95-5F72-4B32-BC68-EB26B6724EAA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TxTestTone_FXO.tcKDTest" />
+		</child>
+		<child name="Configure_RxTestTone_FXO" key="{5F38B822-7965-4753-9C28-F41F13AD5C95}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RxTestTone_FXO.tcKDTest" />
+		</child>
+		<child name="Configure_RemoteLoopback_FXO" key="{44D06B0C-A8BC-4F55-A6CD-0799795199F7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RemoteLoopback_FXO.tcKDTest" />
+		</child>
+		<child name="SelectPortTabs_FXO" key="{84B71B09-2BE5-48F0-AB24-FFB9893109C5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPortTabs_FXO.tcKDTest" />
+		</child>
+		<child name="ConfigureLoopback_T1E1" key="{5678CDEB-DD49-4FE9-A2D0-885FDC7F6B25}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureLoopback_T1E1.tcKDTest" />
+		</child>
+		<child name="Configure_Loopback_FRAMER" key="{FD3E3B4A-7E6B-4B28-B89C-BFA07A0978E1}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Loopback_FRAMER.tcKDTest" />
+		</child>
+		<child name="CheckIfFramer_ThisNode" key="{A8960308-9E1C-4B1A-A85A-619639FF24F4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckIfFramer_ThisNode.tcKDTest" />
+		</child>
+		<child name="CheckIfFramerAvailable" key="{EB9CA95B-2C72-446E-A877-00BAE018DC4E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckIfFramerAvailable.tcKDTest" />
+		</child>
+		<child name="UpdateUserInfo_T1E1" key="{BFAB0BD8-ADF8-4864-B3D9-DB59BCBECD4E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateUserInfo_T1E1.tcKDTest" />
+		</child>
+		<child name="FXO_01_CheckCards" key="{0FFD3FE4-7D9D-4BAD-AA2A-849C34D58C26}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_01_CheckCards.tcKDTest" />
+		</child>
+		<child name="FXO_02_CheckVersion" key="{787207B7-ABE3-4D7C-B4FE-5F0FF1F4CA31}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_02_CheckVersion.tcKDTest" />
+		</child>
+		<child name="FXO_03_CheckEnableDisable" key="{1869E2FA-B884-41D7-BFDB-523FE02E6052}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_03_CheckEnableDisable.tcKDTest" />
+		</child>
+		<child name="FXO_04_Configure_Txlevel" key="{2128328C-C642-44F7-AA91-96C0E019591B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_04_Configure_Txlevel.tcKDTest" />
+		</child>
+		<child name="FXO_05_Configure_Rxlevel" key="{75B810E2-E30E-42AB-BD83-CE7F3D75524B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_05_Configure_Rxlevel.tcKDTest" />
+		</child>
+		<child name="FXO_06_Configure_TxTone" key="{775452AF-D621-48F8-9B67-C6FFCFD6CBFB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_06_Configure_TxTone.tcKDTest" />
+		</child>
+		<child name="FXO_07_Configure_RxTone" key="{CBA515A8-9474-4522-9D27-6EB64B3FBB87}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_07_Configure_RxTone.tcKDTest" />
+		</child>
+		<child name="FXO_08_Configure_RemoteLoopback" key="{276ACC34-4618-42F7-9B41-D48818575644}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_08_Configure_RemoteLoopback.tcKDTest" />
+		</child>
+		<child name="FXO_09_VerifyMapping" key="{15DC4A6F-BD6F-4148-9305-E1ED7FCADF9C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_09_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="FXO_10_CheckBundleSettings" key="{17C131F3-8AF7-427A-83D7-612D625CECBB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_10_CheckBundleSettings.tcKDTest" />
+		</child>
+		<child name="FXO_11_UpdateBundleSettings" key="{AAC0D1E7-6731-43BE-B3B6-1A476733E194}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_11_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="FXO_12_DeleteMapping" key="{E9E6E8D2-45B5-482E-B2AB-AFA3EA51E874}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_12_DeleteMapping.tcKDTest" />
+		</child>
+		<child name="FXO_13_CrossConnectPort" key="{D8BB302B-5EA1-4BD2-9D34-42F84A0CBF58}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_13_CrossConnectPort.tcKDTest" />
+		</child>
+		<child name="FXO_14_VerifyUserInfo" key="{FA93D58D-C23D-477A-8B07-2170CAFBE807}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXO_14_VerifyUserInfo.tcKDTest" />
+		</child>
+		<child name="FXS_01_CheckCards" key="{39DA605B-36C9-4FD5-8E89-0A6AE820320C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_01_CheckCards.tcKDTest" />
+		</child>
+		<child name="FXS_02_CheckVersion" key="{B5A8938E-1F4A-4ECE-9753-99A1582D6EC3}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_02_CheckVersion.tcKDTest" />
+		</child>
+		<child name="FXS_03_CheckEnableDisable" key="{8DA40013-8262-4E56-B503-24CAFADC7E07}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_03_CheckEnableDisable.tcKDTest" />
+		</child>
+		<child name="FXS_04_ConfigureTxlevel" key="{1416BBC2-C6AA-4339-A811-9703024570D0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_04_ConfigureTxlevel.tcKDTest" />
+		</child>
+		<child name="FXS_05_ConfigureRxLevel" key="{2E040D5E-A2AC-40D6-A198-D12068478AE0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_05_ConfigureRxLevel.tcKDTest" />
+		</child>
+		<child name="FXS_06_ConfigureARD" key="{3F45369B-FFD6-40E6-9528-3231D0A3F7BB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_06_ConfigureARD.tcKDTest" />
+		</child>
+		<child name="FXS_07_Configure_ACRingVoltage" key="{BB6A851A-2886-40D4-B5B7-30B74412F3C1}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_07_Configure_ACRingVoltage.tcKDTest" />
+		</child>
+		<child name="FXS_08_Configure_LoopCurrent" key="{71DEDE2A-EDDD-4F76-8FF1-8305102BDE53}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_08_Configure_LoopCurrent.tcKDTest" />
+		</child>
+		<child name="FXS_09_Configure_DCRingVoltage" key="{93147E15-B6D6-41B8-A290-5FFC6E4FC5B2}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_09_Configure_DCRingVoltage.tcKDTest" />
+		</child>
+		<child name="FXS_10_Configure_Companding" key="{1AAD232F-A55F-4803-BCF9-5570C099517F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_10_Configure_Companding.tcKDTest" />
+		</child>
+		<child name="FXS_11_Configure_TxTestTone" key="{2948C774-2BAB-4DCA-B313-79E0B8F8890B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_11_Configure_TxTestTone.tcKDTest" />
+		</child>
+		<child name="FXS_12_Configure_RxTestTone" key="{C46BF1AF-CB80-4565-A286-4EAF03EA9EA0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_12_Configure_RxTestTone.tcKDTest" />
+		</child>
+		<child name="FXS_13_Configure_Loopback" key="{62DB1AF6-E4F0-4FF7-AF9F-4DA1C878B789}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_13_Configure_Loopback.tcKDTest" />
+		</child>
+		<child name="FXS_14_VerifyMapping" key="{2DD33BE6-F121-492A-862A-DED8E30C3A32}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_14_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="FXS_15_CheckBundleSettings" key="{34184466-1B81-40B7-A053-679F0F006294}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_15_CheckBundleSettings.tcKDTest" />
+		</child>
+		<child name="FXS_16_UpdateBundleSettings" key="{49F71F7F-4B59-4C5B-916B-928265A509C4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_16_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="FXS_17_DeleteMapping" key="{EB01D04C-188C-44B3-AA20-A92B1C358CD6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_17_DeleteMapping.tcKDTest" />
+		</child>
+		<child name="FXS_18_CrossConnectionMapping" key="{08540D2C-B3E1-4948-8CAC-2EA7DE17CE06}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_18_CrossConnectionMapping.tcKDTest" />
+		</child>
+		<child name="FXS_19_VerifyUserInfo" key="{C5534DB1-A7D3-4770-A5DB-466CD9F7456C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="FXS_19_VerifyUserInfo.tcKDTest" />
+		</child>
+		<child name="SelectPorts_FXS" key="{93CA8A56-5212-453C-822E-FD19BBDFCA77}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPorts_FXS.tcKDTest" />
+		</child>
+		<child name="CheckVersion_FXS" key="{9DA9984E-3055-417C-BEB8-ABA99AAEC063}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckVersion_FXS.tcKDTest" />
+		</child>
+		<child name="UpdateUserInfo_FXO" key="{DFE29B23-F728-4E54-A1D5-B632E8F3734A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateUserInfo_FXO.tcKDTest" />
+		</child>
+		<child name="UpdateUserInfo_FXS" key="{18617825-5CBB-496B-B1FF-DAABADBEB04E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateUserInfo_FXS.tcKDTest" />
+		</child>
+		<child name="EnableDisable_FXS" key="{7240E135-CA19-4F44-A3C7-415345CCB9BC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableDisable_FXS.tcKDTest" />
+		</child>
+		<child name="ConfigureTxLevel_FXS" key="{43E2500C-7906-439B-A4BC-9F575AC87CE8}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureTxLevel_FXS.tcKDTest" />
+		</child>
+		<child name="ConfigureRxLevel_FXS" key="{12DCF7A8-E8E1-494B-B1DA-D77D565D891E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureRxLevel_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_ARD_FXS" key="{BFA94A7F-5362-4218-98F4-8CB6D45EC674}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_ARD_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_ACRingVoltage_FXS" key="{8A3F774F-8C14-44B4-91C9-2BD51D1A7A28}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_ACRingVoltage_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_Loopcurrent_FXS" key="{6A362924-5DDC-48EA-A3EF-73AAF853B5F7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Loopcurrent_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_DCRingVoltage_FXS" key="{BDE71C3B-A9DD-47E4-8FF7-72F68876899B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_DCRingVoltage_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_Companding_FXS" key="{32ECF471-4C03-4416-8E82-4BC1DFD0B0EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Companding_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_Loopback_FXS" key="{9FBA64EF-0276-4E5D-A053-908B1B39C820}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Loopback_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_TxTone_FXS" key="{46EE6E97-4CEE-4A50-9DA4-5C8CE09FB372}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TxTone_FXS.tcKDTest" />
+		</child>
+		<child name="Configure_RxTone_FXS" key="{57609D9D-B5D3-429F-81B7-A05CCF6DE68B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RxTone_FXS.tcKDTest" />
+		</child>
+		<child name="EnableDisablePort_C37" key="{9C0DE7CB-3FF7-4F1F-BC5B-0D3B4ED41646}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableDisablePort_C37.tcKDTest" />
+		</child>
+		<child name="Check_Version_C37" key="{90635DE7-3097-4901-8163-DC43F7560B23}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Check_Version_C37.tcKDTest" />
+		</child>
+		<child name="ConfigureBandwidth_C37" key="{D210C762-9FAF-4159-9809-8D3FA5A1470D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureBandwidth_C37.tcKDTest" />
+		</child>
+		<child name="CheckMaximumSlots_For_a_Pair_C37" key="{8193A920-D3A8-4EC9-8E4F-39052258A03A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckMaximumSlots_For_a_Pair_C37.tcKDTest" />
+		</child>
+		<child name="CheckMaximumSlots_ForAllPorts_C37" key="{D0507B29-3987-4A7D-A138-88A0B2601F13}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckMaximumSlots_ForAllPorts_C37.tcKDTest" />
+		</child>
+		<child name="ConfigureRXPolarity_C37" key="{3E5CD1CB-448C-4FDD-806F-8FD7D9DE3541}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureRXPolarity_C37.tcKDTest" />
+		</child>
+		<child name="ConfigureTxPolarity_C37" key="{98D44FA3-AD52-4823-B806-70012C9B7446}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureTxPolarity_C37.tcKDTest" />
+		</child>
+		<child name="ConfigureLoopback_C37" key="{F67C3738-1588-4B83-81A5-69B79BC46B8F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ConfigureLoopback_C37.tcKDTest" />
+		</child>
+		<child name="SelectPortTabs_C37" key="{0921B8DB-8F97-45F9-8A05-95915444097C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPortTabs_C37.tcKDTest" />
+		</child>
+		<child name="EnableSelectedPort_C37" key="{69471AA4-4934-48D2-9BC6-514270FFA294}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="EnableSelectedPort_C37.tcKDTest" />
+		</child>
+		<child name="CheckVersion_G703" key="{0520ED71-8815-41CE-8F41-8644BF7153DF}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckVersion_G703.tcKDTest" />
+		</child>
+		<child name="CheckEnableDisable_G703" key="{E8ED2B9D-EFB2-440F-B5F6-DF89790E70EC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="CheckEnableDisable_G703.tcKDTest" />
+		</child>
+		<child name="Configure_Octect_G703" key="{A877D735-7876-4B74-869D-754788269EAB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Octect_G703.tcKDTest" />
+		</child>
+		<child name="Configure_RxDataOut_G703" key="{9018CA28-2C60-458F-8B86-E60070AEB72B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_RxDataOut_G703.tcKDTest" />
+		</child>
+		<child name="Configure_TxDataIn_G703" key="{AC28B1E1-8057-4C3F-876C-ED555FEB0BC6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_TxDataIn_G703.tcKDTest" />
+		</child>
+		<child name="Configure_Loopback_G703" key="{51686268-3A3A-4B32-8FC2-4D408EF4C1DC}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Configure_Loopback_G703.tcKDTest" />
+		</child>
+		<child name="SelectPortTabs_G703" key="{CEA0B5A2-2FA0-42E9-9EDC-8CFCBC4219C4}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SelectPortTabs_G703.tcKDTest" />
+		</child>
+		<child name="UpdateUserInfo_C37" key="{DB64BE82-5F42-416E-8C09-D73C20319D04}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateUserInfo_C37.tcKDTest" />
+		</child>
+		<child name="UpdateUserInfo_G703" key="{5592ABA6-FAFF-4242-A6F2-E52FC8D4FF56}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="UpdateUserInfo_G703.tcKDTest" />
+		</child>
+		<child name="C37_94_01_CheckCards" key="{6F9475A5-E1A3-4580-AD44-D2465F64A410}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_01_CheckCards.tcKDTest" />
+		</child>
+		<child name="C37_94_02_CheckVersion" key="{75981A11-03D3-479D-AB21-426D1CD7E166}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_02_CheckVersion.tcKDTest" />
+		</child>
+		<child name="C37_94_03_ConfigureBandwidth" key="{F3AD75AC-917B-43BB-82FA-E7BCECD7E5D1}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_03_ConfigureBandwidth.tcKDTest" />
+		</child>
+		<child name="C37_94_04_CheckMaximumBandwidth_For_a_pair" key="{9EC27394-E4E0-4D4C-BC6E-C42454D99488}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_04_CheckMaximumBandwidth_For_a_pair.tcKDTest" />
+		</child>
+		<child name="C37_94_05_CheckMaxiumBandwidth_ForAll" key="{8DC4CD93-FC37-4E92-B965-C5B63DDE0B84}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_05_CheckMaxiumBandwidth_ForAll.tcKDTest" />
+		</child>
+		<child name="C37_94_06_EnableDisablePort" key="{F040AFF7-2F18-4B0D-9FAB-F3AA2EB59930}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_06_EnableDisablePort.tcKDTest" />
+		</child>
+		<child name="C37_94_07_ConfigureRxPolarity" key="{B175E1E5-BABC-4F48-93CF-46CB73CC544D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_07_ConfigureRxPolarity.tcKDTest" />
+		</child>
+		<child name="C37_94_08_ConfigureTxPolarity" key="{120B0425-BA09-46B4-B927-11204CF41542}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_08_ConfigureTxPolarity.tcKDTest" />
+		</child>
+		<child name="C37_94_09_ConfigureLoopback" key="{578FBD4B-C4D5-4652-9C44-3360F2A2C51D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_09_ConfigureLoopback.tcKDTest" />
+		</child>
+		<child name="C37_94_10_VerifyMapping" key="{0723625D-AC41-44EE-B25E-37CB09D3AFBA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_10_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="C37_94_11_VerifyBundleSettings" key="{38CDA33F-E63E-4F50-B492-60F42CCE8AE3}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_11_VerifyBundleSettings.tcKDTest" />
+		</child>
+		<child name="C37_94_12_UpdateBundleSettings" key="{D763FB42-E1C3-4D99-8862-A963CE7BF653}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_12_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="C37_94_13_DeleteMapping" key="{F7B91C43-8F57-4043-9E1F-5064E25186AA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_13_DeleteMapping.tcKDTest" />
+		</child>
+		<child name="C37_94_14_CrossConnectorPortTest" key="{D8009482-6F22-4957-B6E0-5ACB2A555596}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_14_CrossConnectorPortTest.tcKDTest" />
+		</child>
+		<child name="C37_94_15_UpdateUserInfo" key="{9283642C-86DC-4EBC-86FD-77C07787FA3B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="C37_94_15_UpdateUserInfo.tcKDTest" />
+		</child>
+		<child name="G703_01_CheckCards" key="{647D8179-A58C-4952-BF23-4ED532C2C891}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_01_CheckCards.tcKDTest" />
+		</child>
+		<child name="G703_02_CheckVersion" key="{2633F5EE-EAA1-4ECE-867D-A6B036130BBD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_02_CheckVersion.tcKDTest" />
+		</child>
+		<child name="G703_03_CheckEnableDisablePort" key="{DA8A2B51-07CB-4331-B759-2DE3EA82BB11}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_03_CheckEnableDisablePort.tcKDTest" />
+		</child>
+		<child name="G703_04_ConfigureOctectTiming" key="{1B7F6EA4-0D14-4E8B-82B3-D04E24AFDDE0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_04_ConfigureOctectTiming.tcKDTest" />
+		</child>
+		<child name="G703_05_Configure_RxPolarity" key="{EFD34ADE-AA70-47B1-AB44-CDFAB8DCC0DD}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_05_Configure_RxPolarity.tcKDTest" />
+		</child>
+		<child name="G703_06_Configure_TxPolarity" key="{3C14617C-EAD5-421A-B910-D8C7DDEC6078}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_06_Configure_TxPolarity.tcKDTest" />
+		</child>
+		<child name="G703_07_ConfigurePolarity" key="{7FCC687E-1637-4891-9D16-8EA99F9F1DCA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_07_ConfigurePolarity.tcKDTest" />
+		</child>
+		<child name="G703_08_VerifyMapping" key="{6494516E-21CD-4253-BFD1-97FD8E78CFDB}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_08_VerifyMapping.tcKDTest" />
+		</child>
+		<child name="G703_09_VerifyBundleSettings" key="{9DDA2CFD-8F9F-4037-A3C7-C9F428BABCF2}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_09_VerifyBundleSettings.tcKDTest" />
+		</child>
+		<child name="G703_10_UpdateBundleSettings" key="{E1C860FD-B71B-4FB8-92E6-E5CAEFA2F7C9}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_10_UpdateBundleSettings.tcKDTest" />
+		</child>
+		<child name="G703_11_DeleteMapping" key="{73AD1780-86F5-40A0-BC59-9BD92DE5DBB2}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_11_DeleteMapping.tcKDTest" />
+		</child>
+		<child name="G703_12_CrossConnectorPortTest" key="{DA247F11-C884-448D-9044-8207F8229034}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_12_CrossConnectorPortTest.tcKDTest" />
+		</child>
+		<child name="G703_13_UpdateUserInfo" key="{1E1BE0E9-AFAA-4A5D-9843-FCFD7846F58C}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="G703_13_UpdateUserInfo.tcKDTest" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="Library" description="A logical folder that is used to organize project items and elements." moniker="">
+			<folders>
+				<folder caption="4WIRE" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{F49017A6-05DD-4A82-B28A-BBD87BD343CC}" />
+						<ref key="{EB3AF600-6FD1-4BB5-B4FB-5B14D6C927D6}" />
+						<ref key="{31C95372-8250-439F-B910-A4F690314CE5}" />
+						<ref key="{5B538893-808C-49E8-A37F-65FE2F87C087}" />
+						<ref key="{447B5335-4412-4C1E-AA17-3C082B004D25}" />
+						<ref key="{3BE0F982-6D6A-4995-913C-049A8E4155CF}" />
+						<ref key="{E8C5244B-F00E-4F28-A633-CAD98622F2DE}" />
+						<ref key="{AC18F6AA-A15A-4AEF-AC3E-620A5CC70D83}" />
+						<ref key="{F2ED3BFB-4394-40C7-B992-BD98DFDE1E56}" />
+						<ref key="{65E5BFD9-9139-466C-8998-F88139E7F83F}" />
+						<ref key="{0F57C6AB-327D-4145-B7BB-5A5F2D5C0C27}" />
+						<ref key="{EED217F6-2163-4C09-8DA5-8CDAD3989431}" />
+						<ref key="{EF66A48B-2C0D-4BF8-A5DB-AB90426B9F8F}" />
+					</references>
+				</folder>
+				<folder caption="2WIRE" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{A952EFF7-D407-477B-88E0-7083EF55CF06}" />
+						<ref key="{43AE3974-6358-46EE-A3C9-D78EB6FBEF8F}" />
+						<ref key="{04C7DB2D-B09D-462D-8035-45254E760611}" />
+						<ref key="{2AC85BCA-73CA-47F2-AA06-7FF893D094B6}" />
+						<ref key="{A0CCBA3C-97B6-48F6-AC3F-5C9126095221}" />
+						<ref key="{94E8C0FB-F792-4ED7-9720-4A8852F6EA10}" />
+						<ref key="{8B545A39-3940-4BF3-9F05-9FB8179FBF16}" />
+						<ref key="{79BEA7DB-FA1C-44D9-B148-F1D106BACD08}" />
+						<ref key="{1A288FED-702A-4BC5-BC0A-E9651B89ED87}" />
+						<ref key="{89244EC7-8BDF-4087-A505-0BBF01C27D3C}" />
+						<ref key="{061D6197-1A0A-49E4-BC87-5EA1098365C6}" />
+					</references>
+				</folder>
+				<folder caption="Common" description="A logical folder that is used to organize project items and elements." moniker="">
+					<folders>
+						<folder caption="AutoDiscovery" description="A logical folder that is used to organize project items and elements." moniker="">
+							<references>
+								<ref key="{0427F2A5-C984-44D3-B083-6AEB530014CF}" />
+								<ref key="{C1214C19-3F7B-4087-9FE6-538F5505A0E2}" />
+								<ref key="{5BF2DFA0-9064-439C-B2D6-CC0094CACCD4}" />
+								<ref key="{D56278F8-3187-49FB-9AD7-152100B1E217}" />
+								<ref key="{5D7355E1-A5F8-434A-9CDC-70EB1F218CFA}" />
+							</references>
+						</folder>
+						<folder caption="CardView" description="A logical folder that is used to organize project items and elements." moniker="">
+							<references>
+								<ref key="{506D5FE8-798A-415A-9F87-A1F77A97DFA8}" />
+								<ref key="{1A21B386-8038-435D-98BB-2A3E7DE7B20A}" />
+								<ref key="{1EB5EF0E-10D8-4769-8E45-F492408B711E}" />
+								<ref key="{59B9B521-0C77-4EE2-ABFF-6731EBCD423C}" />
+								<ref key="{B35D1567-B642-46AC-BE35-FC231AA5943C}" />
+								<ref key="{D467CBB5-A0AB-4514-BB31-6BF867466D1F}" />
+							</references>
+						</folder>
+						<folder caption="Mapping" description="A logical folder that is used to organize project items and elements." moniker="">
+							<references>
+								<ref key="{EAE4F13E-A1B0-4593-AD9C-0C3CCE4ED5F6}" />
+								<ref key="{C0B49B89-AD7F-4B54-8865-17F497ECC0FF}" />
+								<ref key="{4A23D772-AC70-45DF-B3A8-D313D13D03A5}" />
+								<ref key="{92238A3A-EAA7-452A-9222-A769A487CA75}" />
+								<ref key="{A23A250F-A9B6-49ED-B651-6C45183C1290}" />
+								<ref key="{C21F982B-57AA-4584-B05C-52E9C7F54BCF}" />
+								<ref key="{9A7D2F69-3135-4202-8341-9D57C182FF5A}" />
+								<ref key="{59C6F7B0-0E56-4A32-BB17-6C6872EB899F}" />
+								<ref key="{94044771-89FC-4D50-8DFF-1869DD41F1D7}" />
+								<ref key="{DA5416E4-0010-4579-8869-E057EC8538AC}" />
+								<ref key="{159D4BC2-6FA2-4C17-8D04-81060BC35ECE}" />
+								<ref key="{E231094A-CED7-43C7-A576-EAE6232D0A2D}" />
+							</references>
+						</folder>
+						<folder caption="DataChecking" description="A logical folder that is used to organize project items and elements." moniker="">
+							<references>
+								<ref key="{06564BBB-AF5B-4FE4-9F68-FC697D250CC9}" />
+								<ref key="{8235F634-15FF-44E7-9670-542E296B5FDD}" />
+							</references>
+						</folder>
+					</folders>
+					<references>
+						<ref key="{AA1CF28D-9D11-4C7A-B7A2-E7B70C7A5519}" />
+						<ref key="{B40B69A7-1095-41B4-B273-6BF1E7859D32}" />
+						<ref key="{1DCD1331-3353-4D46-98BE-80623BB46CC6}" />
+						<ref key="{FC491CF4-8F5E-4894-B74D-82DB12C65F3A}" />
+						<ref key="{C6BB4DD6-520C-49BC-B15C-D7697BBF2B47}" />
+						<ref key="{741318F7-7731-468F-A49A-05FC45CC3C19}" />
+						<ref key="{E3952C5F-48E6-4B74-81C7-A44D8D6F0DE1}" />
+						<ref key="{D54607BD-82AC-4331-91D1-654FD1E9C3A0}" />
+						<ref key="{2D7FB211-EEA8-40E1-B086-A25F06017FBF}" />
+						<ref key="{6F620B9B-3A25-4845-A97B-B2F25877BFF4}" />
+						<ref key="{EA74FFF5-E346-460F-8307-F582D51538EE}" />
+						<ref key="{B9B4A253-098E-45E5-BA02-3A2413350375}" />
+					</references>
+				</folder>
+				<folder caption="ASYNC" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{14C06EEB-8B32-4EA9-AC01-5A86C416257D}" />
+						<ref key="{8465C117-6377-4DB4-87A7-23B5299B874D}" />
+						<ref key="{58E9747C-0B12-44A6-BFA1-781F371C0749}" />
+						<ref key="{41521E96-33AF-4848-92CA-5FA2162835B6}" />
+						<ref key="{E81DAF5B-ADD5-45E5-B7B3-22BD31E65032}" />
+						<ref key="{147ACC4E-1011-4502-87DF-BA6C16FBA8F9}" />
+						<ref key="{24D7BCAD-B969-405D-907B-4855951D3C7E}" />
+						<ref key="{3C53B1B7-BA2B-4870-B663-17B6045DE837}" />
+						<ref key="{16730EA4-A747-4BAA-9F58-29395E91201B}" />
+						<ref key="{12ABF260-CA5C-4E7C-B9FD-7D62B4A2AB27}" />
+						<ref key="{388F4E66-7FD0-41A0-8312-9CC1A974F6AF}" />
+						<ref key="{1F0E11E7-19A9-4A09-83B5-CB54ADC8F6EC}" />
+						<ref key="{2A314B8F-85AA-4FD4-B5AB-104C0FF99E12}" />
+					</references>
+				</folder>
+				<folder caption="T1E1" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{B2C4A4A6-AA5D-4770-B92F-9C5AC806FFE7}" />
+						<ref key="{8C5DDA19-0E80-40D7-8AAE-2BC13E0061D0}" />
+						<ref key="{A7420E8F-F6D4-44EE-9F04-1020C4BD5BB6}" />
+						<ref key="{BCB1A4C5-DA13-489B-8EC5-7B814027E5EE}" />
+						<ref key="{D292DC92-0270-4F8F-8DF9-73EE9A03BBAB}" />
+						<ref key="{96570671-48EA-4419-9A84-A29AAE3AE788}" />
+						<ref key="{0A5DD898-7566-454B-8171-A49AD2567FEA}" />
+						<ref key="{6E9B4447-101E-481D-8980-2FED56CE770A}" />
+						<ref key="{C394D668-B091-4A7C-A98B-859AB5037497}" />
+						<ref key="{9F8892A9-737C-4203-B326-3719DA174F5D}" />
+						<ref key="{FDC82A26-74F7-411E-B2AF-CF9958C97322}" />
+						<ref key="{AC227453-1EE0-40B8-B806-8FA1A57A3034}" />
+						<ref key="{5678CDEB-DD49-4FE9-A2D0-885FDC7F6B25}" />
+						<ref key="{BFAB0BD8-ADF8-4864-B3D9-DB59BCBECD4E}" />
+					</references>
+				</folder>
+				<folder caption="FRAMER" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{57B273B8-EFB0-4B40-B225-7EBE411FB73D}" />
+						<ref key="{5385E182-210E-4580-B918-3E21BA45F71D}" />
+						<ref key="{5C55BCC4-50F2-47B6-9BB1-1A86DE1F7C22}" />
+						<ref key="{36F4A9FC-CA38-4A16-B444-A0FAA04C8416}" />
+						<ref key="{01B433C8-D599-41AF-8072-9DE90B163D4F}" />
+						<ref key="{7F183C77-39F1-4960-8FAC-DF91E9E64A6E}" />
+						<ref key="{CAC92333-47E6-49AB-A513-7C6176CCEAED}" />
+						<ref key="{DB2CAA72-7B9E-4E09-BD2D-E6C5758DD876}" />
+						<ref key="{3421F72E-ABEB-4B3D-A6B4-F62D480EC63B}" />
+						<ref key="{56B78970-4DA9-4A08-9BEB-98B29CA15511}" />
+						<ref key="{19131963-D0AC-425C-9936-89DD721CC6CB}" />
+						<ref key="{FD3E3B4A-7E6B-4B28-B89C-BFA07A0978E1}" />
+						<ref key="{A8960308-9E1C-4B1A-A85A-619639FF24F4}" />
+						<ref key="{EB9CA95B-2C72-446E-A877-00BAE018DC4E}" />
+					</references>
+				</folder>
+				<folder caption="FXO" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{A33563A6-BFED-4E81-B657-A55D3B931765}" />
+						<ref key="{389461BA-47BD-4895-B79A-65F3C688026A}" />
+						<ref key="{FCB24041-7253-42B1-93E5-F4BF830A1B4B}" />
+						<ref key="{55DE37B5-FDEB-428D-9E82-D3B68429CBAC}" />
+						<ref key="{E0A72E95-5F72-4B32-BC68-EB26B6724EAA}" />
+						<ref key="{5F38B822-7965-4753-9C28-F41F13AD5C95}" />
+						<ref key="{44D06B0C-A8BC-4F55-A6CD-0799795199F7}" />
+						<ref key="{84B71B09-2BE5-48F0-AB24-FFB9893109C5}" />
+						<ref key="{DFE29B23-F728-4E54-A1D5-B632E8F3734A}" />
+					</references>
+				</folder>
+				<folder caption="FXS" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{93CA8A56-5212-453C-822E-FD19BBDFCA77}" />
+						<ref key="{9DA9984E-3055-417C-BEB8-ABA99AAEC063}" />
+						<ref key="{18617825-5CBB-496B-B1FF-DAABADBEB04E}" />
+						<ref key="{7240E135-CA19-4F44-A3C7-415345CCB9BC}" />
+						<ref key="{43E2500C-7906-439B-A4BC-9F575AC87CE8}" />
+						<ref key="{12DCF7A8-E8E1-494B-B1DA-D77D565D891E}" />
+						<ref key="{BFA94A7F-5362-4218-98F4-8CB6D45EC674}" />
+						<ref key="{8A3F774F-8C14-44B4-91C9-2BD51D1A7A28}" />
+						<ref key="{6A362924-5DDC-48EA-A3EF-73AAF853B5F7}" />
+						<ref key="{BDE71C3B-A9DD-47E4-8FF7-72F68876899B}" />
+						<ref key="{32ECF471-4C03-4416-8E82-4BC1DFD0B0EE}" />
+						<ref key="{9FBA64EF-0276-4E5D-A053-908B1B39C820}" />
+						<ref key="{46EE6E97-4CEE-4A50-9DA4-5C8CE09FB372}" />
+						<ref key="{57609D9D-B5D3-429F-81B7-A05CCF6DE68B}" />
+					</references>
+				</folder>
+				<folder caption="G703" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{0520ED71-8815-41CE-8F41-8644BF7153DF}" />
+						<ref key="{E8ED2B9D-EFB2-440F-B5F6-DF89790E70EC}" />
+						<ref key="{A877D735-7876-4B74-869D-754788269EAB}" />
+						<ref key="{9018CA28-2C60-458F-8B86-E60070AEB72B}" />
+						<ref key="{AC28B1E1-8057-4C3F-876C-ED555FEB0BC6}" />
+						<ref key="{51686268-3A3A-4B32-8FC2-4D408EF4C1DC}" />
+						<ref key="{CEA0B5A2-2FA0-42E9-9EDC-8CFCBC4219C4}" />
+						<ref key="{5592ABA6-FAFF-4242-A6F2-E52FC8D4FF56}" />
+					</references>
+				</folder>
+				<folder caption="C37.94" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{9C0DE7CB-3FF7-4F1F-BC5B-0D3B4ED41646}" />
+						<ref key="{90635DE7-3097-4901-8163-DC43F7560B23}" />
+						<ref key="{D210C762-9FAF-4159-9809-8D3FA5A1470D}" />
+						<ref key="{8193A920-D3A8-4EC9-8E4F-39052258A03A}" />
+						<ref key="{D0507B29-3987-4A7D-A138-88A0B2601F13}" />
+						<ref key="{3E5CD1CB-448C-4FDD-806F-8FD7D9DE3541}" />
+						<ref key="{98D44FA3-AD52-4823-B806-70012C9B7446}" />
+						<ref key="{F67C3738-1588-4B83-81A5-69B79BC46B8F}" />
+						<ref key="{0921B8DB-8F97-45F9-8A05-95915444097C}" />
+						<ref key="{69471AA4-4934-48D2-9BC6-514270FFA294}" />
+						<ref key="{DB64BE82-5F42-416E-8C09-D73C20319D04}" />
+					</references>
+				</folder>
+			</folders>
+		</folder>
+		<folder caption="Tests" description="A logical folder that is used to organize project items and elements." moniker="">
+			<folders>
+				<folder caption="ASYNC" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{5F8B7E8D-7B35-42A5-8069-114C93CA0230}" />
+						<ref key="{804E9D72-DD15-4F03-8D8D-B0092053C0F3}" />
+						<ref key="{0DCCD26F-FFBF-4708-80E8-8EFB95C91092}" />
+						<ref key="{55233485-24F5-4732-84F6-778D5293FD4F}" />
+						<ref key="{B4C5532E-E359-4FD9-8C0E-6F1082CB7BAB}" />
+						<ref key="{C884F078-FB39-4FDE-ACDC-4CB0AA1D54DA}" />
+						<ref key="{4EDF1207-DE50-4415-A85A-0EC9B5811033}" />
+						<ref key="{6B2C5CC1-B949-4E62-982B-000101B350ED}" />
+						<ref key="{1556212C-FBF9-49A5-A576-9BF1924CCF30}" />
+						<ref key="{B87E5076-BB79-4125-883C-06755550EE87}" />
+						<ref key="{AC96B1FD-A323-424A-883F-3B119D9BD553}" />
+						<ref key="{4423ECB2-A1E6-4558-8453-D478AF3FEE63}" />
+						<ref key="{8DCD8D0A-70D2-4049-A431-96E740D9E56A}" />
+						<ref key="{EA137F6B-995E-4D7E-855A-CAC6D62346FE}" />
+						<ref key="{5F8E342C-122B-4D59-9130-F590A3A5A7EC}" />
+					</references>
+				</folder>
+				<folder caption="4WIRE" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{E62F55AB-5200-4981-BADE-00651642665F}" />
+						<ref key="{D27FD8E0-0285-4A10-95DF-0FD52DE3B012}" />
+						<ref key="{2C9E1FEB-01D6-420E-8A23-694216735341}" />
+						<ref key="{04E1464E-676E-487C-8CA2-E329C8F90AC8}" />
+						<ref key="{1EC23F7F-2832-4D2E-801B-90D5BB133956}" />
+						<ref key="{8AACF5C4-B686-4BB4-9AA5-EDF84B477BFE}" />
+						<ref key="{C58A96A4-F6F2-40D0-AA7F-063A3877F52C}" />
+						<ref key="{9537918E-7400-4BEE-A06E-F753A3C8F3ED}" />
+						<ref key="{B33928F9-420F-4E05-A2EA-C2554299D85C}" />
+						<ref key="{DCB2967E-4CD7-474D-8B93-2F031E0FCE73}" />
+						<ref key="{0016466C-ECAE-4210-B59A-25BDB7498A79}" />
+						<ref key="{E2106C5E-8AA6-4648-8541-A535F27CF78B}" />
+						<ref key="{F02B2CBE-DDFA-457F-88A6-BF700FC5CD41}" />
+						<ref key="{C3248028-8797-47FF-BE73-21B824F2CAB0}" />
+						<ref key="{3C1A91BE-01AE-4D8C-98FA-7925A8C93B82}" />
+					</references>
+				</folder>
+				<folder caption="2WIRE" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{987934B1-3CCA-421C-BF25-E2BDD8704A11}" />
+						<ref key="{7192B6E9-787E-47DB-9C92-DE2EEEC9B2C7}" />
+						<ref key="{DDF47873-020C-466A-9B1B-BB430F394E12}" />
+						<ref key="{F66E06E7-482D-4E8E-8FA0-9485BFA4282E}" />
+						<ref key="{79FA5A66-5E41-4B1B-86C7-B22FEDF79052}" />
+						<ref key="{175659BB-0545-4BBD-92BD-00BE964425C3}" />
+						<ref key="{93694410-FCB6-48DD-A1EF-7AF2144D89D0}" />
+						<ref key="{583D3062-1BB5-419F-9C17-C0784AC1B003}" />
+						<ref key="{1FC5D46E-A361-489F-AB3A-D53D10279233}" />
+						<ref key="{1265141E-A137-4543-8045-DE4D2D38681F}" />
+						<ref key="{02744F37-681E-41E4-A1AF-27D03AA7D36A}" />
+						<ref key="{0D2BDC7D-FEBE-4C40-A15A-403A8F873DAA}" />
+						<ref key="{25DD9270-9F67-4C77-AD07-9BC5A3A6E4DA}" />
+						<ref key="{B1BEE1A8-85C6-48A9-B69C-1E8A1FB97F51}" />
+						<ref key="{C5FB5B68-8907-43C3-974E-61021FC78839}" />
+						<ref key="{53A929B1-F9E4-4E58-BA32-3CC1D43EEC06}" />
+						<ref key="{C53287A6-90AA-453A-B520-3636C6B8A31B}" />
+						<ref key="{ED29DB76-12BD-437D-A60E-A729F874F0DE}" />
+						<ref key="{E533978D-8055-499C-9169-11AECDD8C176}" />
+					</references>
+				</folder>
+				<folder caption="T1E1" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{CEF69873-8C11-467A-8CC7-90D0FC691E61}" />
+						<ref key="{35AB7788-3796-4446-96AE-CBC10464ACFD}" />
+						<ref key="{389CB1E0-7AF3-4714-82EB-3D5FC5BB3513}" />
+						<ref key="{D16BC684-ABBD-46B0-AB05-B6336D5C6E83}" />
+						<ref key="{A06D901F-E65C-4DA3-B609-88A4C2036420}" />
+						<ref key="{C3734E8D-AB77-4167-8DFD-C0AA131BECDB}" />
+						<ref key="{187355A3-57FD-4E9A-AF90-AC648B23B303}" />
+						<ref key="{39C4CD84-3B69-40AF-9135-6EEE81A0D04A}" />
+						<ref key="{6388195F-9297-4C8D-A181-318A7E94A5BC}" />
+						<ref key="{709D6FF2-718B-4E85-AA3B-9290187E80CA}" />
+						<ref key="{1BC37CFA-152F-4E06-8658-BF6F6958CAEA}" />
+						<ref key="{835C2C7B-E1F7-468A-B5B8-AA5A08E191E5}" />
+						<ref key="{52BA610D-15FF-4E58-B527-603A7DECC880}" />
+						<ref key="{7E62BCF8-5A4C-435E-BD88-62662F71DAC4}" />
+						<ref key="{767B213F-227A-44D8-951F-BD348E7EA3EE}" />
+						<ref key="{DA5718C4-3263-40C5-8FB3-590A8AFA6830}" />
+						<ref key="{5048F14F-A7D6-40F1-9902-C7F9D769EB58}" />
+						<ref key="{721679BF-E7DD-431C-93FB-4C900C0C8594}" />
+					</references>
+				</folder>
+				<folder caption="FRAMER" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{4D3808BA-1E0A-44F5-8925-78067554A790}" />
+						<ref key="{F881621A-FAEF-4C7A-9C31-10343B2BB553}" />
+						<ref key="{4D0DF57A-766C-4BD8-8178-60E2819FDDCE}" />
+						<ref key="{79F6C54D-02D8-428D-9473-4B5A363A5C21}" />
+						<ref key="{0B699D72-2672-4EEB-A0DB-2F5096FA7A32}" />
+						<ref key="{7DF0B42E-818A-4702-9293-FE20698034E1}" />
+						<ref key="{51243ADC-49F3-4D0E-A9CD-2C5515D689BC}" />
+						<ref key="{5B5962E1-AC9F-43CB-96F4-361A2BAFF31F}" />
+						<ref key="{1145F87A-486A-40BB-94F5-22C208C91521}" />
+						<ref key="{BD9375CF-8619-477E-9A35-AE3D495F1557}" />
+						<ref key="{C5CE29B4-30F8-4A14-ADCD-32D63087DF52}" />
+						<ref key="{59DE0FED-178E-493F-B839-F2024C7A1D3E}" />
+						<ref key="{361B5092-0F40-41BA-A2CF-0F7378C5BE47}" />
+						<ref key="{73D25B5C-CE66-4811-91A2-3768F580A780}" />
+						<ref key="{DD3365E4-C97F-4D01-9EDD-518B110B6933}" />
+						<ref key="{C2E701E4-262F-45E8-B9EC-C5CE95F08F8E}" />
+						<ref key="{47FF12CF-13D8-4245-BC6D-6516642B85A5}" />
+						<ref key="{2E7A7757-1362-41AD-932A-A0049EF217C5}" />
+					</references>
+				</folder>
+				<folder caption="FXO" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{0FFD3FE4-7D9D-4BAD-AA2A-849C34D58C26}" />
+						<ref key="{787207B7-ABE3-4D7C-B4FE-5F0FF1F4CA31}" />
+						<ref key="{1869E2FA-B884-41D7-BFDB-523FE02E6052}" />
+						<ref key="{2128328C-C642-44F7-AA91-96C0E019591B}" />
+						<ref key="{75B810E2-E30E-42AB-BD83-CE7F3D75524B}" />
+						<ref key="{775452AF-D621-48F8-9B67-C6FFCFD6CBFB}" />
+						<ref key="{CBA515A8-9474-4522-9D27-6EB64B3FBB87}" />
+						<ref key="{276ACC34-4618-42F7-9B41-D48818575644}" />
+						<ref key="{15DC4A6F-BD6F-4148-9305-E1ED7FCADF9C}" />
+						<ref key="{17C131F3-8AF7-427A-83D7-612D625CECBB}" />
+						<ref key="{AAC0D1E7-6731-43BE-B3B6-1A476733E194}" />
+						<ref key="{E9E6E8D2-45B5-482E-B2AB-AFA3EA51E874}" />
+						<ref key="{D8BB302B-5EA1-4BD2-9D34-42F84A0CBF58}" />
+						<ref key="{FA93D58D-C23D-477A-8B07-2170CAFBE807}" />
+					</references>
+				</folder>
+				<folder caption="FXS" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{39DA605B-36C9-4FD5-8E89-0A6AE820320C}" />
+						<ref key="{B5A8938E-1F4A-4ECE-9753-99A1582D6EC3}" />
+						<ref key="{8DA40013-8262-4E56-B503-24CAFADC7E07}" />
+						<ref key="{1416BBC2-C6AA-4339-A811-9703024570D0}" />
+						<ref key="{2E040D5E-A2AC-40D6-A198-D12068478AE0}" />
+						<ref key="{3F45369B-FFD6-40E6-9528-3231D0A3F7BB}" />
+						<ref key="{BB6A851A-2886-40D4-B5B7-30B74412F3C1}" />
+						<ref key="{71DEDE2A-EDDD-4F76-8FF1-8305102BDE53}" />
+						<ref key="{93147E15-B6D6-41B8-A290-5FFC6E4FC5B2}" />
+						<ref key="{1AAD232F-A55F-4803-BCF9-5570C099517F}" />
+						<ref key="{2948C774-2BAB-4DCA-B313-79E0B8F8890B}" />
+						<ref key="{C46BF1AF-CB80-4565-A286-4EAF03EA9EA0}" />
+						<ref key="{62DB1AF6-E4F0-4FF7-AF9F-4DA1C878B789}" />
+						<ref key="{2DD33BE6-F121-492A-862A-DED8E30C3A32}" />
+						<ref key="{34184466-1B81-40B7-A053-679F0F006294}" />
+						<ref key="{49F71F7F-4B59-4C5B-916B-928265A509C4}" />
+						<ref key="{EB01D04C-188C-44B3-AA20-A92B1C358CD6}" />
+						<ref key="{08540D2C-B3E1-4948-8CAC-2EA7DE17CE06}" />
+						<ref key="{C5534DB1-A7D3-4770-A5DB-466CD9F7456C}" />
+					</references>
+				</folder>
+				<folder caption="C37.94" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{6F9475A5-E1A3-4580-AD44-D2465F64A410}" />
+						<ref key="{75981A11-03D3-479D-AB21-426D1CD7E166}" />
+						<ref key="{F3AD75AC-917B-43BB-82FA-E7BCECD7E5D1}" />
+						<ref key="{9EC27394-E4E0-4D4C-BC6E-C42454D99488}" />
+						<ref key="{8DC4CD93-FC37-4E92-B965-C5B63DDE0B84}" />
+						<ref key="{F040AFF7-2F18-4B0D-9FAB-F3AA2EB59930}" />
+						<ref key="{B175E1E5-BABC-4F48-93CF-46CB73CC544D}" />
+						<ref key="{120B0425-BA09-46B4-B927-11204CF41542}" />
+						<ref key="{578FBD4B-C4D5-4652-9C44-3360F2A2C51D}" />
+						<ref key="{0723625D-AC41-44EE-B25E-37CB09D3AFBA}" />
+						<ref key="{38CDA33F-E63E-4F50-B492-60F42CCE8AE3}" />
+						<ref key="{D763FB42-E1C3-4D99-8862-A963CE7BF653}" />
+						<ref key="{F7B91C43-8F57-4043-9E1F-5064E25186AA}" />
+						<ref key="{D8009482-6F22-4957-B6E0-5ACB2A555596}" />
+						<ref key="{9283642C-86DC-4EBC-86FD-77C07787FA3B}" />
+					</references>
+				</folder>
+				<folder caption="G703" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{647D8179-A58C-4952-BF23-4ED532C2C891}" />
+						<ref key="{2633F5EE-EAA1-4ECE-867D-A6B036130BBD}" />
+						<ref key="{DA8A2B51-07CB-4331-B759-2DE3EA82BB11}" />
+						<ref key="{1B7F6EA4-0D14-4E8B-82B3-D04E24AFDDE0}" />
+						<ref key="{EFD34ADE-AA70-47B1-AB44-CDFAB8DCC0DD}" />
+						<ref key="{3C14617C-EAD5-421A-B910-D8C7DDEC6078}" />
+						<ref key="{7FCC687E-1637-4891-9D16-8EA99F9F1DCA}" />
+						<ref key="{6494516E-21CD-4253-BFD1-97FD8E78CFDB}" />
+						<ref key="{9DDA2CFD-8F9F-4037-A3C7-C9F428BABCF2}" />
+						<ref key="{E1C860FD-B71B-4FB8-92E6-E5CAEFA2F7C9}" />
+						<ref key="{73AD1780-86F5-40A0-BC59-9BD92DE5DBB2}" />
+						<ref key="{DA247F11-C884-448D-9044-8207F8229034}" />
+						<ref key="{1E1BE0E9-AFAA-4A5D-9843-FCFD7846F58C}" />
+					</references>
+				</folder>
+			</folders>
+		</folder>
+	</folders>
+</Root>

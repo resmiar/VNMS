@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{DB64BE82-5F42-416E-8C09-D73C20319D04}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42916.4273958333" objectName="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.UserInfoTab" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi139891115661640.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42916.4274421296" objectName="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Configuration.UserInfo.TextboxEnterForNewLine250CharsMax" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi139891521861645.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

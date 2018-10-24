@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{270083E0-CC89-4341-8FF7-82318BC48322}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42866.2538888889" objectName="Aliases.VNMS.HwndSource_NodeView_43.NodeView_43.NodeView3500.NodeView_3500" objectLeft="38" objectTop="100" objectRight="1163" objectBottom="443" clickPointX="-361" clickPointY="-231" imageFileName="tcvi146941496834080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42866.2539351852" objectName="Aliases.VNMS.HwndSource_NodeView_43.NodeView_43" objectLeft="8" objectTop="30" objectRight="1209" objectBottom="611" clickPointX="-361" clickPointY="-231" imageFileName="tcvi146941834334083.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42866.3483564815" objectName="Aliases.VNMS.HwndSource_RetrieveNetworkActiveAlarmsView" objectLeft="0" objectTop="0" objectRight="800" objectBottom="600" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1477576406340813.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

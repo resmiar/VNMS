@@ -1,0 +1,8 @@
+﻿function ShowDialog()
+{
+  //aqDlg.MessageDlg("Confirm whether the loopback plug is inserted or not",0, "mbYes")
+var set1 = MkSet(mbYes,mbNo);
+var box = BuiltIn.MessageDlg("Please confirm whether the loopback plug is inserted or not",mtInformation, set1, 0) ; 
+Log.Message(box)
+return box;
+} 

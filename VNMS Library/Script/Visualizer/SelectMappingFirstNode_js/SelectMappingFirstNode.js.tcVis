@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C576BBBA-2E3E-49F6-B34A-4F02E777034C}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42881.4145023148" objectName="Aliases.VNMS.MappingView.MappingScreen.BusyIndicator.CmbNodeName" objectLeft="14" objectTop="66" objectRight="165" objectBottom="97" clickPointX="53" clickPointY="80" imageFileName="tcvi-151728278143960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42881.414525463" objectName="Aliases.VNMS.MappingView.MappingScreen.BusyIndicator.CmbNodeName.IPSelection" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-151728106243963.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="42881.4240972222" objectName="Aliases.VNMS.MappingView.MappingScreen.BusyIndicator.CmbNodeName" objectLeft="14" objectTop="66" objectRight="165" objectBottom="97" clickPointX="-172" clickPointY="-5" imageFileName="tcvi-151645356243963.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

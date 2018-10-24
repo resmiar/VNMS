@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B4A46DDD-4C74-4450-B18D-D5DB57B0EFE4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42887.2507638889" objectName="Aliases.VNMS.CardView.CardViewWindow.BusyIndicator.TabControlConfiguration.ScrollViewer.testControl.GroupItem.UcComboView3.ComboBox" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi357051966012.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42887.2503587963" objectName="Aliases.VNMS.CardView.CardViewWindow.BusyIndicator.TabControlConfiguration.ScrollViewer.testControl.GroupItem.UcComboView3.ComboBox" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi35352016603.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

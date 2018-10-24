@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{31C95372-8250-439F-B910-A4F690314CE5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42902.7927083333" objectName="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.ContentPresenter.DecimalUpDown" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi22086564056403.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42902.792650463" objectName="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.ContentPresenter.DecimalUpDown" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi22086054656400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="42905.4058333333" objectName="Aliases.VNMS.ResetSOEConfirmationWindow.btnOK" objectLeft="313" objectTop="127" objectRight="401" objectBottom="153" clickPointX="361" clickPointY="142" imageFileName="tcvi44664095356400.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

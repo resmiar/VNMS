@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B9CF3FEA-BC95-43B7-B67F-982FFC0C9594}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42885.525787037" objectName="Aliases.VNMS.HwndSource_PopupRoot.PopupRoot.ContextMenu" objectLeft="0" objectTop="0" objectRight="322" objectBottom="71" clickPointX="-220" clickPointY="-280" imageFileName="tcvi-116235114032682.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42885.5258101852" objectName="Aliases.VNMS.MappingView.MappingScreen.BusyIndicator.MappingScrollViewer.FirstNode.MappingNode3500.Slot3.Async" objectLeft="179" objectTop="234" objectRight="332" objectBottom="340" clickPointX="231" clickPointY="319" imageFileName="tcvi-116234893732684.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42885.5258333333" objectName="Aliases.VNMS.HwndSource_ConfirmChangesToMapping.ConfirmChangesToMapping.ButtonYes" objectLeft="112" objectTop="118" objectRight="193" objectBottom="149" clickPointX="141" clickPointY="138" imageFileName="tcvi-116234700032685.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

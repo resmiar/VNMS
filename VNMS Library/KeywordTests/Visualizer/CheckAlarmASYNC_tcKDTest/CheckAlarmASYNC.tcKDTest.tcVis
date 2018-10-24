@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7040E91A-F878-4AEC-B35B-2C53529F4316}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42887.5325925926" objectName="Aliases.VNMS.CardView.CardViewWindow.TabControlStatus.LabelPort1" objectLeft="585" objectTop="108" objectRight="628" objectBottom="133" clickPointX="604" clickPointY="121" imageFileName="tcvi1119137114806.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42887.5336574074" objectName="Aliases.VNMS.CardView.CardViewWindow.TabControlStatus.LabelAlarm" objectLeft="805" objectTop="108" objectRight="848" objectBottom="133" clickPointX="831" clickPointY="121" imageFileName="tcvi1128328714808.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="42887.5386111111" objectName="Aliases.VNMS.CardView.CardViewWindow.ButtonDefaultSettings" objectLeft="834" objectTop="500" objectRight="933" objectBottom="526" clickPointX="862" clickPointY="511" imageFileName="tcvi1171194614800.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

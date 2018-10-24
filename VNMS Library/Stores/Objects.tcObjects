@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{30501691-969F-4007-923F-BA4459E51E6A}" version="12.0">
+	<children>
+		<child name="DB9_H" key="{2E5818AA-4B74-4F67-AA34-D7B302A24BC2}" type="Object" typeId="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" pluginName="Stores">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="12.0" caption="DB9_H" ID="{2E5818AA-4B74-4F67-AA34-D7B302A24BC2}" FileName="Objects\DB9_H.tcObject" Update="False" />
+		</child>
+		<child name="MappingScreen" key="{F7D2F105-B621-427A-9B9A-D817FAF6A8E3}" type="Object" typeId="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" pluginName="Stores">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="12.0" caption="MappingScreen" ID="{F7D2F105-B621-427A-9B9A-D817FAF6A8E3}" FileName="Objects\MappingScreen.tcObject" Update="False" />
+		</child>
+	</children>
+	<folders />
+</Root>

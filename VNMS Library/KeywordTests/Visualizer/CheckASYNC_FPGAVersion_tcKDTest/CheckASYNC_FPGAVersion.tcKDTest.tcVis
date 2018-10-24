@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3AB77EDB-B8C9-45A4-A595-9EF8082D16EA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42885.3986921296" objectName="Aliases.VNMS.CardView.ASYNC.TabControlStatus.LabelGeneral" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-117333164032680.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

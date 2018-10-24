@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{F2956360-284D-4826-8348-84BE236BA73B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS;" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="AutoDiscoverNetwork" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CheckIfReqdCardAvailable">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CardType" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="ASYNC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="2" VariableName="IPData">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="CheckIfCardAvailableInThisNode">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NodeIP" DefVarType="3" DefValueType="1" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="IPData">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="IP">
+											<Values>
+												<Value Type="6" Value="IPFirst_part" Text="IPFirst_part" />
+												<Value Type="6" Value="IPSecond_part" Text="IPSecond_part" />
+												<Value Type="6" Value="IPThird_part" Text="IPThird_part" />
+												<Value Type="6" Value="IPFourth_part" Text="IPFourth_part" />
+												<Value Type="6" Value="IP" Text="IP" />
+												<Value Type="6" Value="UserName" Text="UserName" />
+												<Value Type="6" Value="Password" Text="Password" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="CardType" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="ASYNC" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="4" VariableName="CountOfCards">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="2">
+								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="CountOfCards" />
+								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="OpenNodeView">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="2.2.2.2" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="IPData">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="IP">
+													<Values>
+														<Value Type="6" Value="IPFirst_part" Text="IPFirst_part" />
+														<Value Type="6" Value="IPSecond_part" Text="IPSecond_part" />
+														<Value Type="6" Value="IPThird_part" Text="IPThird_part" />
+														<Value Type="6" Value="IPFourth_part" Text="IPFourth_part" />
+														<Value Type="6" Value="IP" Text="IP" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+								<Data Description="Runs a script routine." TestName="GetRequiredSlotNumbers" Unit="GetRequiredSlotNumbers">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NodeIP" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="2" VariableName="IPData" ColumnName="IP" />
+										<Parameter Name="CardType" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="ASYNC" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="NumberOfSlots">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="RowCount">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="1" Operator="2">
+										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="NumberOfSlots" />
+										<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+									</Root>
+								</Data>
+								<Children>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="openCardViewByDoubleClick">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="SlotNumber" DefVarType="3" DefValueType="1" DefValueValue="4" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="SlotNumbers">
+													<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+														<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Slots">
+															<Values>
+																<Value Type="6" Value="Slots" Text="Slots" />
+															</Values>
+														</Parameter>
+														<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="RowCount" />
+													</ArrayIndexes>
+												</Parameter>
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="ASYNC_CheckFPGAVersion" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="CloseCardView" />
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="RowCount">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.ASYNC_02_CheckFPGA.Variables.RowCount+1" />
+											</Parameters>
+										</Data>
+									</Operation>
+									<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+										<Data VariableType="4" VariableName="NumberOfSlots">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.ASYNC_02_CheckFPGA.Variables.NumberOfSlots-1" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="CloseNodeView" />
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{4D611DF1-98DC-4F85-8BFA-0FC2D6B5420E}">
+		<Items>
+			<Variable Name="NumberOfSlots" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+			<Variable Name="RowCount" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+			<Variable Name="CountOfCards" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{1823342A-EEB8-4170-906A-B55EBD1FA56C}" />
+</Root>

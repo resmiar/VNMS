@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{FDC82A26-74F7-411E-B2AF-CF9958C97322}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42910.6128009259" objectName="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.GeneralTab" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi89652484356400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42910.6129282407" objectName="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Status.TabControlStatus.CounterTab" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi89653560956402.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42910.6130324074" objectName="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.ResetCounters.UcCheckboxAutoForced.Grid.CheckboxResetCounters" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi89654475056404.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

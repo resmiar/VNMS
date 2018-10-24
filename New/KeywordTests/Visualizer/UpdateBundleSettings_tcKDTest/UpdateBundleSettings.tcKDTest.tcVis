@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{159D4BC2-6FA2-4C17-8D04-81060BC35ECE}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42900.5284953704" objectName="Aliases.VNMS.HwndSource_BundleView.BundleView.BusyIndicator.Grid.ButtonWrite" objectLeft="589" objectTop="500" objectRight="640" objectBottom="526" clickPointX="600" clickPointY="507" imageFileName="tcvi2523667161566.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42900.4190162037" objectName="Aliases.VNMS.HwndSource_WriteBundleSettingsMessageBox.WriteBundleSettingsMessageBox.ButtonOk" objectLeft="146" objectTop="189" objectRight="227" objectBottom="220" clickPointX="185" clickPointY="206" imageFileName="tcvi15778312615625.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42900.4190856482" objectName="Aliases.VNMS.HwndSource_BundleView.BundleView.TabControlStatus.StatusTab" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi15784046615627.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

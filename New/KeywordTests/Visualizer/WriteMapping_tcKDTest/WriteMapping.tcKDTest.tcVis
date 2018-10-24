@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{E231094A-CED7-43C7-A576-EAE6232D0A2D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42892.2508101852" objectName="Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.ButtonWrite" objectLeft="19" objectTop="490" objectRight="130" objectBottom="521" clickPointX="83" clickPointY="505" imageFileName="tcvi8808462244080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42892.2508680556" objectName="Aliases.VNMS.dlg.btnYes" objectLeft="160" objectTop="126" objectRight="248" objectBottom="152" clickPointX="207" clickPointY="139" imageFileName="tcvi8808942744082.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

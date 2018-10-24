@@ -1,0 +1,31 @@
+﻿//USEUNIT SelectDestinationPortASYNC
+//USEUNIT SelectSourcePortASYNC
+function SelectSourcePort(SlotNum, PortNum)
+{
+  var SlotObj, ShelfType;
+  SlotObj = null;
+  ShelfType = "";
+  //Clicks at point (20, 26) of the 'MappingGrid' object with the right mouse button.
+  //Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500M.Grid.Border.Grid.Border.SlotArea.Slot2.MappingContentControl.Slot2.Border.Grid.Port3.MappingGrid.ClickR(20, 26);
+  //ShelfType = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel.CmbNodeName.DataContext.SourceNode.HwType;
+  //if(ShelfType == 3500)
+  //{
+    ////if(SlotNum == 1)
+      ////if(PortNum == 1);
+    //Returns an object by the values of the specified properties.
+    //Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.FindChild("ClrFullClassName, WPFControlOrdinalNo", "System.Windows.Controls.Viewbox,1", 1000);
+  
+  //if(ShelfType == "3500M");
+  //Runs a script routine.
+  SelectSourcePort(3, 1);
+  //Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500M.Grid.Border.Grid.Border.SlotArea.Slot2.MappingContentControl.Slot2.Border.Grid.Port3.PortGrid.PopupMenu.Click("Map this port");
+  //Runs a script routine.
+  SelectDestinationPort(4, 1);
+}
+
+function Test1()
+{
+  //Checks whether the 'G' property of the Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot3.StackPanel.MappingBorder.BorderBrush.Color object equals 0.
+  aqObject.CheckProperty(Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot3.StackPanel.MappingBorder.BorderBrush.Color, "G", cmpEqual, 0);
+}

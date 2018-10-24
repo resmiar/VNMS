@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="12.0">
+	<children>
+		<child name="Objects" key="{A188F2A0-DBE3-46EB-AB0F-170AC20BBBE2}" type="Objects" typeId="{30501691-969F-4007-923F-BA4459E51E6A}" pluginName="Stores">
+			<data path="Objects.tcObjects" />
+		</child>
+		<child name="Tables" key="{2ECA831B-5921-412D-834B-532AB3D9AA82}" type="Tables" typeId="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" pluginName="Stores">
+			<data path="Tables\Tables.tcTbls" />
+		</child>
+	</children>
+	<folders />
+</Root>

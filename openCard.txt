@@ -1,0 +1,52 @@
+*function OpenCardView(NodeID,SlotNum,ShelfType)
+{
+  /*if ShelfType=1 {
+  if SlotNum=1
+    slot.dblClick();
+    if SlotNum=2
+    slot.dblClick();
+    if SlotNum=3
+    slot.dblClick();
+    if SlotNum=4
+    slot.dblClick();
+    if SlotNum=5
+    slot.dblClick();
+    if SlotNum=6
+    slot.dblClick();
+    if SlotNum=7
+    slot.dblClick();
+    if SlotNum=8
+    slot.dblClick();
+    if SlotNum=9
+    slot.dblClick();
+    if SlotNum=10
+    slot.dblClick();
+    if SlotNum=1
+    slot.dblClick();    
+  } 
+  
+  if ShelfType=0
+   {if SlotNum=1
+    slot.dblClick();
+    if SlotNum=2
+    slot.dblClick();
+    if SlotNum=3
+    slot.dblClick();
+    if SlotNum=4
+    slot.dblClick();
+    if SlotNum=5
+    slot.dblClick();
+    if SlotNum=6
+    slot.dblClick();
+    if SlotNum=7
+    slot.dblClick();
+    if SlotNum=8
+    slot.dblClick();
+    if SlotNum=9
+    slot.dblClick();
+    if SlotNum=10
+    slot.dblClick();
+    if SlotNum=1
+    slot.dblClick()
+    }
+} 

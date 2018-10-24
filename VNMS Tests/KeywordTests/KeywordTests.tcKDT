@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="AddIP" key="{F668EF83-A2DE-4AF6-8548-E3A2A454C16D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\AddIP.tcKDTest" />
+		</child>
+		<child name="ChooseToAutoDiscover" key="{C87AF418-6416-45A1-B8F4-A1F44F096F97}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ChooseToAutoDiscover.tcKDTest" />
+		</child>
+		<child name="ClickDiscover" key="{A9DA80AC-A585-4B8F-8D28-788C4F8F48A7}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ClickDiscover.tcKDTest" />
+		</child>
+		<child name="EnterCredentials" key="{ABE42DD5-99CB-4CC7-8354-1BA74C631A06}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\EnterCredentials.tcKDTest" />
+		</child>
+		<child name="ForceNeighborNodesOffline" key="{06944F93-411F-4046-A3B3-6980BD853C93}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\ForceNeighborNodesOffline.tcKDTest" />
+		</child>
+		<child name="AutoDiscoverNetwork" key="{0E4AF7D8-2591-4716-B8FF-9A728D2C7241}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\AutoDiscoverNetwork.tcKDTest" />
+		</child>
+		<child name="OpenNodeView" key="{5E2B4E1C-5DFE-4E52-976E-23346F5B9EF5}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenNodeView.tcKDTest" />
+		</child>
+		<child name="ASYNC_01" key="{AFB1DD55-84A1-4E0F-86CE-A6766B5353BA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_01.tcKDTest" />
+		</child>
+		<child name="ASYNC_02" key="{5CC0662C-DEB4-4730-BB95-258EB3AB3D22}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_02.tcKDTest" />
+		</child>
+		<child name="ASYNC_03" key="{60815368-0714-42DD-B93F-298A625E1A60}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_03.tcKDTest" />
+		</child>
+		<child name="ASYNC_04" key="{EF025B94-37FF-4082-8789-90FFB8F6D78D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_04.tcKDTest" />
+		</child>
+		<child name="ASYNC_05_old" key="{270083E0-CC89-4341-8FF7-82318BC48322}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_05_old.tcKDTest" />
+		</child>
+		<child name="ASYNC_05" key="{6D6003CF-0030-418F-B41F-4E3E6D3D3AA2}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="ASYNC_05.tcKDTest" />
+		</child>
+		<child name="OpenMappingView" key="{D5CA1007-A4B2-4CBC-AA39-097B38A5752D}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenMappingView.tcKDTest" />
+		</child>
+		<child name="OpenSOE_report" key="{048846C9-36FD-4079-8C68-A4DE63052974}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\OpenSOE_report.tcKDTest" />
+		</child>
+		<child name="VerifyCardView" key="{8D60D8B9-1364-4182-BC7D-EC68A679FE0F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\VerifyCardView.tcKDTest" />
+		</child>
+		<child name="openCardViewByDoubleClick" key="{AA2C9466-12E6-47D5-9248-06CAC2B86921}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="..\..\VNMS Library\KeywordTests\openCardViewByDoubleClick.tcKDTest" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="Library" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{F668EF83-A2DE-4AF6-8548-E3A2A454C16D}" />
+				<ref key="{C87AF418-6416-45A1-B8F4-A1F44F096F97}" />
+				<ref key="{A9DA80AC-A585-4B8F-8D28-788C4F8F48A7}" />
+				<ref key="{ABE42DD5-99CB-4CC7-8354-1BA74C631A06}" />
+				<ref key="{06944F93-411F-4046-A3B3-6980BD853C93}" />
+				<ref key="{0E4AF7D8-2591-4716-B8FF-9A728D2C7241}" />
+				<ref key="{5E2B4E1C-5DFE-4E52-976E-23346F5B9EF5}" />
+				<ref key="{D5CA1007-A4B2-4CBC-AA39-097B38A5752D}" />
+				<ref key="{048846C9-36FD-4079-8C68-A4DE63052974}" />
+				<ref key="{8D60D8B9-1364-4182-BC7D-EC68A679FE0F}" />
+				<ref key="{AA2C9466-12E6-47D5-9248-06CAC2B86921}" />
+			</references>
+		</folder>
+		<folder caption="ASYNC" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{AFB1DD55-84A1-4E0F-86CE-A6766B5353BA}" />
+				<ref key="{5CC0662C-DEB4-4730-BB95-258EB3AB3D22}" />
+				<ref key="{60815368-0714-42DD-B93F-298A625E1A60}" />
+				<ref key="{EF025B94-37FF-4082-8789-90FFB8F6D78D}" />
+				<ref key="{270083E0-CC89-4341-8FF7-82318BC48322}" />
+				<ref key="{6D6003CF-0030-418F-B41F-4E3E6D3D3AA2}" />
+			</references>
+		</folder>
+	</folders>
+</Root>

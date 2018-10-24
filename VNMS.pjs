@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{D90C2759-A7F9-4F7D-9C4F-5C1DC1C2F6E7}">
+	<children>
+		<child name="VNMS Test Library" key="{3503A5EF-678B-4A8C-B0BF-9A20E80F8238}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="VNMS Library\VNMS Test Library.mds" />
+		</child>
+		<child name="VNMS Test Automation" key="{51C31BB2-36C7-4F07-9E7C-AAB1318C0B47}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="New\VNMS Test Automation.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{69C074E5-9D64-4845-A5FF-A67A18F07839}">
+		<children>
+			<testItem key="{3503A5EF-678B-4A8C-B0BF-9A20E80F8238}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{51C31BB2-36C7-4F07-9E7C-AAB1318C0B47}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{C8A5165D-B022-42C6-BD27-A7C3C87AA0FB}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{48FF6420-45A5-4C1D-95E6-725EC2DD5E32}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>
