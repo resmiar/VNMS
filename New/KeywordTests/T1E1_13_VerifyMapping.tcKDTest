@@ -13,6 +13,20 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Current Testcase: T1E1_13_VerifyMapping" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="MappingRecordAvailable">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CardType" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="T1/E1" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS;" />
@@ -23,23 +37,14 @@
 					</Operation>
 				</Children>
 			</Operation>
-			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
-				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.MappingScreen;" />
-				</Data>
-				<Children>
-					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-						<Data Description="Runs a keyword test." TestName="OpenMappingView" />
-					</Operation>
-					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-						<Data Description="Delays the test execution for the specified time period.">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
-								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
-							</Parameters>
-						</Data>
-					</Operation>
-				</Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="OpenMappingView" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DeleteExistingMappings" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CloseMappingView" />
 			</Operation>
 			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 				<Data VariableType="2" VariableName="Mapping">
@@ -67,7 +72,126 @@
 						</Data>
 						<Children>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="OpenNodeView">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="2.2.2.2" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="SourceNode">
+													<Values>
+														<Value Type="6" Value="MappingType" Text="MappingType" />
+														<Value Type="6" Value="SourceNode" Text="SourceNode" />
+														<Value Type="6" Value="SourceSlot" Text="SourceSlot" />
+														<Value Type="6" Value="DestinationNode" Text="DestinationNode" />
+														<Value Type="6" Value="DestinationSlot" Text="DestinationSlot" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="openCardViewByDoubleClick">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="SlotNumber" DefVarType="3" DefValueType="1" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="SourceSlot">
+													<Values>
+														<Value Type="6" Value="MappingType" Text="MappingType" />
+														<Value Type="6" Value="SourceNode" Text="SourceNode" />
+														<Value Type="6" Value="SourceSlot" Text="SourceSlot" />
+														<Value Type="6" Value="DestinationNode" Text="DestinationNode" />
+														<Value Type="6" Value="DestinationSlot" Text="DestinationSlot" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="ResetCardSettings" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="EnableT1E1" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="CloseCardView" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="CloseNodeView" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="OpenNodeView">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="192.168.1.43" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="DestinationNode">
+													<Values>
+														<Value Type="6" Value="MappingType" Text="MappingType" />
+														<Value Type="6" Value="SourceNode" Text="SourceNode" />
+														<Value Type="6" Value="SourceSlot" Text="SourceSlot" />
+														<Value Type="6" Value="DestinationNode" Text="DestinationNode" />
+														<Value Type="6" Value="DestinationSlot" Text="DestinationSlot" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="openCardViewByDoubleClick">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="SlotNumber" DefVarType="3" DefValueType="1" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
+											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="DestinationSlot">
+													<Values>
+														<Value Type="6" Value="MappingType" Text="MappingType" />
+														<Value Type="6" Value="SourceNode" Text="SourceNode" />
+														<Value Type="6" Value="SourceSlot" Text="SourceSlot" />
+														<Value Type="6" Value="DestinationNode" Text="DestinationNode" />
+														<Value Type="6" Value="DestinationSlot" Text="DestinationSlot" />
+													</Values>
+												</Parameter>
+											</ArrayIndexes>
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="ResetCardSettings" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="EnableT1E1" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="CloseCardView" />
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+								<Data Description="Runs a keyword test." TestName="CloseNodeView" />
+							</Operation>
+							<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+								<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.MappingScreen;" />
+								</Data>
+								<Children>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="OpenMappingView" />
+									</Operation>
+									<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+										<Data Description="Delays the test execution for the specified time period.">
+											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+												<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+												<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+											</Parameters>
+										</Data>
+									</Operation>
+								</Children>
+							</Operation>
+							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="SelectSourceNode">
+									<CommonData WaitTimeout="15000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="192.168.1.42" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -86,6 +210,7 @@
 							</Operation>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="SelectDestinationNode">
+									<CommonData WaitTimeout="15000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="192.168.1.42" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -118,7 +243,7 @@
 								</Data>
 							</Operation>
 							<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-								<Data Description="Runs a script routine." TestName="SelectDestinationPort" Unit="SelectDestinationPort_Gen">
+								<Data Description="Runs a script routine." TestName="SelectDestinationPort" Unit="SelectDestinationPort_T1E1">
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="SlotNum" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -178,6 +303,7 @@
 						<Children>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="SelectSourceNode">
+									<CommonData WaitTimeout="15000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="192.168.1.42" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -196,6 +322,7 @@
 							</Operation>
 							<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 								<Data Description="Runs a keyword test." TestName="SelectDestinationNode">
+									<CommonData WaitTimeout="15000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="NodeIP" DefVarType="8" DefValueType="6" DefValueValue="192.168.1.42" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Mapping">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -232,8 +359,16 @@
 					</Operation>
 				</Children>
 			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.RbtnFileSettings;" />
+				</Data>
+			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="CloseMappingView" />
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
 			</Operation>
 		</Children>
 	</TestData>

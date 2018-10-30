@@ -45,17 +45,16 @@
 							</Root>
 						</Data>
 						<Children>
-							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="1" Operator="0">
-										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="InputValue">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth1 input">
 													<Values>
 														<Value Type="6" Value="Enable" Text="Enable" />
 														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
 														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
-														<Value Type="6" Value="PIC Version" Text="PIC Version" />
 														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
 														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
 														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
@@ -71,12 +70,25 @@
 														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
 														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
 														<Value Type="6" Value="User info" Text="User info" />
-														<Value Type="6" Value="F20" Text="F20" />
+														<Value Type="6" Value="F19" Text="F19" />
 													</Values>
 												</Parameter>
 											</ArrayIndexes>
-										</Left>
-										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="0" Operator="0">
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Expression>
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="" />
+										</Expression>
 									</Root>
 								</Data>
 								<Children>
@@ -98,7 +110,6 @@
 																<Value Type="6" Value="Enable" Text="Enable" />
 																<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
 																<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
-																<Value Type="6" Value="PIC Version" Text="PIC Version" />
 																<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
 																<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
 																<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
@@ -114,7 +125,7 @@
 																<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
 																<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
 																<Value Type="6" Value="User info" Text="User info" />
-																<Value Type="6" Value="F20" Text="F20" />
+																<Value Type="6" Value="F19" Text="F19" />
 															</Values>
 														</Parameter>
 													</ArrayIndexes>
@@ -197,17 +208,16 @@
 							</Root>
 						</Data>
 						<Children>
-							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="1" Operator="0">
-										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="InputValue">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth2 input">
 													<Values>
 														<Value Type="6" Value="Enable" Text="Enable" />
 														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
 														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
-														<Value Type="6" Value="PIC Version" Text="PIC Version" />
 														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
 														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
 														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
@@ -223,12 +233,25 @@
 														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
 														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
 														<Value Type="6" Value="User info" Text="User info" />
-														<Value Type="6" Value="F20" Text="F20" />
+														<Value Type="6" Value="F19" Text="F19" />
 													</Values>
 												</Parameter>
 											</ArrayIndexes>
-										</Left>
-										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="0" Operator="0">
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Expression>
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="" />
+										</Expression>
 									</Root>
 								</Data>
 								<Children>
@@ -301,6 +324,7 @@
 											</Operation>
 											<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 												<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+													<CommonData WaitTimeout="15000" />
 													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 														<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Bandwidth2.Label" />
 														<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
@@ -349,17 +373,16 @@
 							</Root>
 						</Data>
 						<Children>
-							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="1" Operator="0">
-										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="InputValue">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth3 input">
 													<Values>
 														<Value Type="6" Value="Enable" Text="Enable" />
 														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
 														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
-														<Value Type="6" Value="PIC Version" Text="PIC Version" />
 														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
 														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
 														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
@@ -375,12 +398,25 @@
 														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
 														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
 														<Value Type="6" Value="User info" Text="User info" />
-														<Value Type="6" Value="F20" Text="F20" />
+														<Value Type="6" Value="F19" Text="F19" />
 													</Values>
 												</Parameter>
 											</ArrayIndexes>
-										</Left>
-										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="0" Operator="0">
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Expression>
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="" />
+										</Expression>
 									</Root>
 								</Data>
 								<Children>
@@ -474,17 +510,16 @@
 							</Root>
 						</Data>
 						<Children>
-							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
-								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-									<Root Type="1" Operator="0">
-										<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
+							<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+								<Data VariableType="4" VariableName="InputValue">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="C3794_Settings">
 											<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Bandwidth4 input">
 													<Values>
 														<Value Type="6" Value="Enable" Text="Enable" />
 														<Value Type="6" Value="EnableActualSettings" Text="EnableActualSettings" />
 														<Value Type="6" Value="FPGA Version" Text="FPGA Version" />
-														<Value Type="6" Value="PIC Version" Text="PIC Version" />
 														<Value Type="6" Value="Bandwidth1 input" Text="Bandwidth1 input" />
 														<Value Type="6" Value="Bandwidth1 Actual" Text="Bandwidth1 Actual" />
 														<Value Type="6" Value="Bandwidth2 input" Text="Bandwidth2 input" />
@@ -500,12 +535,25 @@
 														<Value Type="6" Value="Loopback Mode index" Text="Loopback Mode index" />
 														<Value Type="6" Value="Loopback Mode Actual" Text="Loopback Mode Actual" />
 														<Value Type="6" Value="User info" Text="User info" />
-														<Value Type="6" Value="F20" Text="F20" />
+														<Value Type="6" Value="F19" Text="F19" />
 													</Values>
 												</Parameter>
 											</ArrayIndexes>
-										</Left>
-										<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Parameter>
+									</Parameters>
+								</Data>
+							</Operation>
+							<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+									<Root Type="0" Operator="0">
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+										</Expression>
+										<Expression Type="1" Operator="0">
+											<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="InputValue" />
+											<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="" />
+										</Expression>
 									</Root>
 								</Data>
 								<Children>
@@ -630,9 +678,12 @@
 			<Variable Name="State" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
 				<DefValue IntValue="0" />
 			</Variable>
+			<Variable Name="InputValue" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
+			</Variable>
 		</Items>
 	</Variables>
 	<Parameters Key="{4179147D-BE3B-4378-9292-C3E23E75E5BB}">
-		<Parameter0 Name="PortNum" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="3" Description="" />
+		<Parameter0 Name="PortNum" VarType="3" IsOptional="False" DefValueType="1" DefValueValue="2" Description="" />
 	</Parameters>
 </Root>

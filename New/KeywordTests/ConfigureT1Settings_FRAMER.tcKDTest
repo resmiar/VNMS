@@ -30,10 +30,17 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.GeneralTab;" />
 				</Data>
 			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="FramerModeIndex">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 					<Root Type="1" Operator="1">
-						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.PortFramerMode.Label.WPFControlText" />
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.PortFramerMode.ComboBox.DataContext.DisplayValue" />
 						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="T1" />
 					</Root>
 				</Data>

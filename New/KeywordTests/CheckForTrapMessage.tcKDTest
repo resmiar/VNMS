@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{35B68397-F43A-4CE4-8B3B-00C83ADB5D9D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data CheckMode="{0C953BA0-B91B-4B81-B2F6-EE31B739D012}">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.BusyIndicator.DockPanel.Grid.CurrentEventLog;" />
+				</Data>
+				<Children>
+					<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+						<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="0" PreferredMenu="WPFMenu">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Reports|Show current event log" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.MainMenu;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="TextVariable">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Text" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.BusyIndicator.DockPanel.Grid.CurrentEventLog.Border.Grid.Border.TextBox" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="TextVariable" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{5F615EDF-C380-4801-8B55-2FCB9A3D31AE}">
+		<Items>
+			<Variable Name="TextVariable" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue StrValue="70006F007200740020006300680061006E00670065006400200074006F00" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{75F2AC68-AC7D-453D-A17C-135F3849AA8C}">
+		<Parameter0 Name="Text" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Port changed to" Description="" />
+	</Parameters>
+</Root>

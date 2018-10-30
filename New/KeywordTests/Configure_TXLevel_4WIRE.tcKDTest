@@ -70,12 +70,20 @@
 						</Children>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click" InvokeKind="-1">
+						<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="83" />
-								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="7" />
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.ContentPresenter.DecimalUpDown;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.Tx.DecimalUpDown;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -110,7 +118,7 @@
 									</ArrayIndexes>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.ContentPresenter.DecimalUpDown;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.Tx.DecimalUpDown;" />
 						</Data>
 					</Operation>
 					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
@@ -145,7 +153,7 @@
 							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.ContentPresenter.userControl.Grid.Label" />
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FourWire.TabControlConfiguration.testControl.Configuration.Tx.userControl.Grid.Label" />
 										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
 										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 										<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Fourwire_Settings">

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{2A529965-C2F0-4072-B835-EF2A3C2B68C1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit1.js" />
-		</child>
 		<child name="SelectSourcePortASYNC" key="{59C9A8EC-A09A-4261-A422-A3F830D78902}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="SelectSourcePortASYNC.js" />
 		</child>
@@ -52,8 +49,14 @@
 		<child name="SelectDestinationPort_T1E1" key="{B3A2987F-5243-4BF0-90BF-08BA2C53C82B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="SelectDestinationPort_T1E1.js" />
 		</child>
-		<child name="Unit2" key="{F453A76E-05B6-4CF0-B11F-0B85884FDD1C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit2.js" />
+		<child name="OpenBundleSettings_T1E1" key="{A2FA5B41-C101-4C46-A73C-4131E864DC7F}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OpenBundleSettings_T1E1.js" />
+		</child>
+		<child name="DeleteMapping_T1E1" key="{DD5398B5-D5A0-4A9D-8549-CBEC1E8CD9B4}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="DeleteMapping_T1E1.js" />
+		</child>
+		<child name="LoadPDF" key="{42B0B651-A7F4-4073-8673-245D21F23B9B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="LoadPDF.js" />
 		</child>
 	</children>
 	<folders>

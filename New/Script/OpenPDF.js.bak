@@ -1,0 +1,11 @@
+﻿function loadDocument()
+{
+  var docObj;
+
+  // Load the PDF file to the PDDocument object
+  docObj = JavaClasses.org_apache_pdfbox_pdmodel.PDDocument.load_2("C:\\Test.pdf");
+  // Return the resulting PDDocument object
+  return docObj;
+}
+
+

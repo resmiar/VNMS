@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{FE1D2118-8D7D-4890-9B95-2CBD255A9580}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42940.5067708333" objectName="Aliases.VNMS.HwndSource_RflMainWindow.RflMainWindow.MainMenu" objectLeft="0" objectTop="24" objectRight="1676" objectBottom="46" clickPointX="-1" clickPointY="-1" imageFileName="tcvi147684609329923.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42940.5068287037" objectName="Aliases.VNMS.ResetSOEConfirmationWindow.btnYes" objectLeft="255" objectTop="126" objectRight="343" objectBottom="152" clickPointX="293" clickPointY="136" imageFileName="tcvi147685157829925.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -10,7 +10,7 @@
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="VNMS.exe" filePath="E:\RFL\VNMS Development\Build\VNMS5.0_27Apr2017_SQA_II\" parameters="" workFolder="" />
+					<param name="Simple" fileName="VNMS.exe" filePath="C:\Resmi\RFL\Build\VNMS5.0_27Apr2017_SQA_II\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6A6B68D1-C925-4C4D-8119-A04D3696A247}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42921.4946412037" objectName="Aliases.VNMS.CardView.TwoWire.BusyIndicator.Grid.Controls.Configuration.TabControlConfiguration.LawTab" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-126284346824920.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42921.4947800926" objectName="Aliases.VNMS.CardView.TwoWire.BusyIndicator.Grid.Controls.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Encoding.P12ULaw.UcComboView.Grid.ComboboxcontrolPorts12EncodingMethod.Grid.ComboBox" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-126283087524924.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="42921.4949884259" objectName="Aliases.VNMS.CardView.TwoWire.BusyIndicator.Grid.Controls.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Encoding.P34Law.UcComboView.Grid.ComboboxcontrolPorts34EncodingMethod.Grid.ComboBox" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-1262813406249211.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

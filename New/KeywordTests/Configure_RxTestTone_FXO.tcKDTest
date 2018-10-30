@@ -18,7 +18,7 @@
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.GroupItem.ContentPresenter.CheckboxP1Enable;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Configuration.Enable.CheckboxP1Enable;" />
 				</Data>
 			</Operation>
 			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
@@ -69,7 +69,7 @@
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="0" />
 									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.GroupItem2.ContentPresenter.CheckboxP3RxTestTone;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Test.RxTone.CheckboxP3RxTestTone;" />
 								</Data>
 							</Operation>
 						</Children>
@@ -90,7 +90,7 @@
 											<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 												<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
 											</Parameters>
-											<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.GroupItem2.ContentPresenter.CheckboxP3RxTestTone;" />
+											<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Test.RxTone.CheckboxP3RxTestTone;" />
 										</Data>
 									</Operation>
 								</Children>
@@ -111,7 +111,7 @@
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.GroupItem2.ContentPresenter.Label" />
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Test.RxTone.Label" />
 								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
 								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="FXO_Settings">
@@ -145,15 +145,16 @@
 					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 							<Root Type="1" Operator="0">
-								<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.GroupItem2.ContentPresenter.Label.DataContext.CActual" />
+								<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Test.RxTone.Label.DataContext.CActual" />
 								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="1" />
 							</Root>
 						</Data>
 						<Children>
 							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<CommonData WaitTimeout="30000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid2.TabControlStatus.Grid.ScrollViewer.Grid.testControl.Activity.ContentPresenter.UcIndicator2Label.Grid.WPFObject(&quot;Ellipse&quot;, &quot;&quot;, 1).DataContext" />
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid2.TabControlStatus.Grid.ScrollViewer.Grid.testControl.Activity.RxTone.Ellipse.DataContext" />
 										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="SelectedColor" />
 										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ORANGE" />
@@ -180,8 +181,9 @@
 							</Operation>
 							<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 								<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+									<CommonData WaitTimeout="15000" />
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid2.TabControlStatus.Grid.ScrollViewer.Grid.testControl.GroupItem.ContentPresenter.Ellipse.DataContext" />
+										<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FXO.BusyIndicator.Grid.Grid.Grid2.TabControlStatus.Grid.ScrollViewer.Grid.testControl.Alarms.MinorAlarm.Ellipse.DataContext" />
 										<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="SelectedColor" />
 										<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
 										<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="ORANGE" />
@@ -194,7 +196,9 @@
 				</Children>
 			</Operation>
 			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
-				<Data Name="Out of the loop" />
+				<Data Name="Out of the loop">
+					<CommonData WaitTimeout="30000" />
+				</Data>
 			</Operation>
 		</Children>
 	</TestData>

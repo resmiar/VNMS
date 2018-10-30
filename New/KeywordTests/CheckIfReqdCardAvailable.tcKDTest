@@ -7,6 +7,13 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="Count">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
 				<Data VariableType="2" VariableName="SlotDetails">
 					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />

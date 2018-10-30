@@ -1,6 +1,6 @@
 ﻿function SelectSourcePort(SlotNum, PortID)
 {
-  var ShelfType, SlotObj,PortNum;
+  var ShelfType, SlotObj,PortNum,Framer;
     
   ShelfType = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel.CmbNodeName.DataContext.SourceNode.HwType;
   
@@ -47,8 +47,8 @@
       }
     if (SlotNum == 8) 
     {Framer = Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.Border.Viewbox.WrapPanel.T1E13500.Grid.BdrT1E1;
-    mappingBorder.T1E1Grid.BT1E1MappingGrid.ClickR();
-    mappingBorder.PopupMenu.Click("Map entire T1/E1 port");
+    Framer.T1E1Grid.BT1E1MappingGrid.ClickR();
+    Framer.PopupMenu.Click("Map entire T1/E1 port");
     }
   }
   if(ShelfType == "3500M")

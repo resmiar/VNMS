@@ -62,6 +62,9 @@
     if (SlotNum == 7) 
     {Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500M.Grid.Border.Grid.Border.Grid.Slot7.FindChild(PropertyNames, PropertyValues, 6).Click();
     } 
-  
+    if (SlotNum == 8)
+   {scrollViewer = Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer;
+    scrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500M.Grid.Border.Grid.Border2.BT1E1MappingGrid.Click(14, 19);
+    } 
   } 
 }

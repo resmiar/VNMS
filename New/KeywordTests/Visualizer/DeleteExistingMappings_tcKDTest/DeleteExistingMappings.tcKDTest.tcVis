@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{EE3B3B0F-053B-4607-9FA6-F12C4463DBF1}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42937.3060069444" objectName="Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel2.ButtonDeleteAll" objectLeft="19" objectTop="440" objectRight="130" objectBottom="471" clickPointX="81" clickPointY="453" imageFileName="tcvi120029684339320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42937.3060763889" objectName="Aliases.VNMS.HwndSource_DeleteAllMappingMessageBox.DeleteAllMappingMessageBox.Grid.Border.StackPanel.AllNodeRdBtn" objectLeft="41" objectTop="180" objectRight="460" objectBottom="197" clickPointX="46" clickPointY="189" imageFileName="tcvi120030298439322.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42937.3061111111" objectName="Aliases.VNMS.HwndSource_DeleteAllMappingMessageBox.DeleteAllMappingMessageBox.Grid.Grid.StackPanel.ButtonOk" objectLeft="155" objectTop="222" objectRight="236" objectBottom="253" clickPointX="193" clickPointY="235" imageFileName="tcvi120030581239324.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

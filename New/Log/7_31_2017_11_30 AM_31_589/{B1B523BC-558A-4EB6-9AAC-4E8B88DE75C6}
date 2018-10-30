@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="15"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="15"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="15"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="test" type="S" value="ASYNC"/>
+			<Prp name="host" type="S" value="SRV-DEVTEST"/>
+			<Prp name="log status" type="I" value="0"/>
+			<Prp name="start date" type="D" value="42947.4795413889"/>
+			<Prp name="stop date" type="D" value="42947.4858079977"/>
+			<Prp name="user" type="S" value="rresmi"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row4">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4807128009"/>
+				<Prp name="details" type="S" value="{EB9F688B-F530-416F-9958-20EA2E67F697}"/>
+				<Prp name="name" type="S" value="ProjectTestItem5"/>
+				<Prp name="end time" type="D" value="42947.4813653125"/>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="row7">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4824755324"/>
+				<Prp name="details" type="S" value="{8099325D-7E97-4DAA-B789-CF2A3F60155F}"/>
+				<Prp name="name" type="S" value="ProjectTestItem8"/>
+				<Prp name="end time" type="D" value="42947.4827868056"/>
+				<Prp name="index" type="I" value="7"/>
+			</Node>
+			<Node name="row12">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4848025463"/>
+				<Prp name="details" type="S" value="{D3961AC1-3F9B-4A19-B934-40F81D5E8736}"/>
+				<Prp name="name" type="S" value="ProjectTestItem13"/>
+				<Prp name="end time" type="D" value="42947.4849053125"/>
+				<Prp name="index" type="I" value="12"/>
+			</Node>
+			<Node name="row11">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4846415856"/>
+				<Prp name="details" type="S" value="{AAEF56AA-D2E7-4DA8-8DB4-62832F23DFE2}"/>
+				<Prp name="name" type="S" value="ProjectTestItem12"/>
+				<Prp name="end time" type="D" value="42947.4848024537"/>
+				<Prp name="index" type="I" value="11"/>
+			</Node>
+			<Node name="row6">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4821506829"/>
+				<Prp name="details" type="S" value="{E61F4893-AD5B-4CD0-AB30-FB861DB98783}"/>
+				<Prp name="name" type="S" value="ProjectTestItem7"/>
+				<Prp name="end time" type="D" value="42947.4824754977"/>
+				<Prp name="index" type="I" value="6"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4795413889"/>
+				<Prp name="details" type="S" value="{ED0C3C8C-0212-41F7-BE76-D29AE3A22C17}"/>
+				<Prp name="name" type="S" value="ProjectTestItem1"/>
+				<Prp name="end time" type="D" value="42947.4795876389"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row9">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4839832407"/>
+				<Prp name="details" type="S" value="{60D6FCB7-C976-4B45-976F-48F9297D88EE}"/>
+				<Prp name="name" type="S" value="ProjectTestItem10"/>
+				<Prp name="end time" type="D" value="42947.4844820949"/>
+				<Prp name="index" type="I" value="9"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4799847801"/>
+				<Prp name="details" type="S" value="{86902C01-6EF6-48A0-BBF0-625DCD7DDD51}"/>
+				<Prp name="name" type="S" value="ProjectTestItem4"/>
+				<Prp name="end time" type="D" value="42947.4807127894"/>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4797401505"/>
+				<Prp name="details" type="S" value="{58BBB727-B029-414E-97AD-49B3BD8326C4}"/>
+				<Prp name="name" type="S" value="ProjectTestItem3"/>
+				<Prp name="end time" type="D" value="42947.4799847685"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row5">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4813653356"/>
+				<Prp name="details" type="S" value="{20550550-32E6-49A1-8E0C-32D70979E428}"/>
+				<Prp name="name" type="S" value="ProjectTestItem6"/>
+				<Prp name="end time" type="D" value="42947.4821506597"/>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+			<Node name="row8">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4827868056"/>
+				<Prp name="details" type="S" value="{F28DDC65-FBA0-4B35-8532-0F2368444B1E}"/>
+				<Prp name="name" type="S" value="ProjectTestItem9"/>
+				<Prp name="end time" type="D" value="42947.4839832407"/>
+				<Prp name="index" type="I" value="8"/>
+			</Node>
+			<Node name="row10">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4844820949"/>
+				<Prp name="details" type="S" value="{41AAB094-634C-4417-83C1-7CB160C0B81A}"/>
+				<Prp name="name" type="S" value="ProjectTestItem11"/>
+				<Prp name="end time" type="D" value="42947.4846415856"/>
+				<Prp name="index" type="I" value="10"/>
+			</Node>
+			<Node name="row14">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4855623264"/>
+				<Prp name="details" type="S" value="{49362C7A-B8D8-4F08-A15C-E2A7995D52B6}"/>
+				<Prp name="name" type="S" value="ProjectTestItem15"/>
+				<Prp name="end time" type="D" value="42947.4858079977"/>
+				<Prp name="index" type="I" value="14"/>
+			</Node>
+			<Node name="row13">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.4849053125"/>
+				<Prp name="details" type="S" value="{A8B02935-8599-4239-88B5-8CFA2535732A}"/>
+				<Prp name="name" type="S" value="ProjectTestItem14"/>
+				<Prp name="end time" type="D" value="42947.4855622338"/>
+				<Prp name="index" type="I" value="13"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="start time" type="D" value="42947.479587662"/>
+				<Prp name="details" type="S" value="{D1DA487A-467A-45E3-875A-EB2D709F8C01}"/>
+				<Prp name="name" type="S" value="ProjectTestItem2"/>
+				<Prp name="end time" type="D" value="42947.4797401389"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

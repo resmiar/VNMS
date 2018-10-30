@@ -17,11 +17,26 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="IP">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="NodeIP" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="ItemNumber">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<CommonData WaitTimeout="10000" />
 					<Root Type="1" Operator="0">
 						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel.SecondNode.DataContext.DestinationNode.IpAddress" />
-						<Right DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="NodeIP" />
+						<Right DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="IP" />
 					</Root>
 				</Data>
 			</Operation>
@@ -30,6 +45,7 @@
 				<Children>
 					<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
 						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<CommonData WaitTimeout="30000" />
 							<Root Type="1" Operator="3">
 								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="ItemNumber" />
 								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
@@ -55,7 +71,7 @@
 								<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 									<Root Type="1" Operator="0">
 										<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.Border.Grid.StackPanel.SecondNode.DataContext.DestinationNode.IpAddress" />
-										<Right DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="NodeIP" />
+										<Right DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="IP" />
 									</Root>
 								</Data>
 								<Children>
@@ -78,6 +94,9 @@
 		<Items>
 			<Variable Name="ItemNumber" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
 				<DefValue IntValue="0" />
+			</Variable>
+			<Variable Name="IP" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue />
 			</Variable>
 		</Items>
 	</Variables>

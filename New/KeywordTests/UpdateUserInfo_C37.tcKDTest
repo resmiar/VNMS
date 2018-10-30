@@ -62,6 +62,9 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.C3794.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Configuration.UserInfo.TextboxEnterForNewLine250CharsMax;" />
 				</Data>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteCardView" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="3" Key="{1BBDD768-4B40-4E87-82BC-50A5BEE1F74E}" />

@@ -30,10 +30,17 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.GeneralTab;" />
 				</Data>
 			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="4" VariableName="T1E1modeIndex">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 					<Root Type="1" Operator="1">
-						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.PortMode.UcCombore.Grid.Label.WPFControlText" />
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.PortMode.UcCombore.Grid.T1E1Mode.Grid.ComboBox.DataContext.DisplayValue" />
 						<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="E1" />
 					</Root>
 				</Data>
@@ -43,13 +50,13 @@
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Item" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="T1E1modeIndex" />
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.testControl.TxLevel.ComboBox;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.T1E1.BusyIndicator.Grid.Grid.Configuration.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.General.PortMode.UcCombore.Grid.T1E1Mode.Grid.ComboBox;" />
 						</Data>
 					</Operation>
 					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 						<Data VariableType="4" VariableName="T1E1modeIndex">
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.ConfigureT1Settings.Variables.T1E1modeIndex+1" />
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.ConfigureE1Settings_T1E1.Variables.T1E1modeIndex+1" />
 							</Parameters>
 						</Data>
 					</Operation>
@@ -421,7 +428,7 @@
 						</Data>
 						<Children>
 							<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
-								<Data LabelName="End of file 2" />
+								<Data LabelName="End of file 3" />
 							</Operation>
 						</Children>
 					</Operation>

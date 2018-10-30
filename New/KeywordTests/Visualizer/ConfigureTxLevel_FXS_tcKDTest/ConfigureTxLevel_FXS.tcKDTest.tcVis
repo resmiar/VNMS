@@ -2,6 +2,6 @@
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{43E2500C-7906-439B-A4BC-9F575AC87CE8}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42914.2824305556" objectName="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.testControl.ContentPresenter.DecimalUpDown" objectLeft="206" objectTop="214" objectRight="342" objectBottom="237" clickPointX="292" clickPointY="224" imageFileName="tcvi121358392117680.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42914.282650463" objectName="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.testControl.TxLevel.DecimalUpDown" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi121360273417685.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42914.282650463" objectName="Aliases.VNMS.CardView.FXS.BusyIndicator.Grid.Grid.Grid.TabControlConfiguration.Grid.ScrollViewer.Grid.testControl.Configuration.TxLevel.DecimalUpDown" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi121360273417685.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

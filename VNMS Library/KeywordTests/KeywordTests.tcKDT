@@ -40,9 +40,6 @@
 		<child name="RetrieveNodeAlarm" key="{3A8AE4FE-96BE-42E5-BEF2-3B0E416FE215}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="RetrieveNodeAlarm.tcKDTest" />
 		</child>
-		<child name="SelectFirstNodeForMapping" key="{10C96420-F2EE-494A-B7F7-1AC020FFFC05}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="SelectFirstNodeForMapping.tcKDTest" />
-		</child>
 		<child name="ASYNC_01_Check_Cards" key="{C1231E56-CE8C-4A4F-8C9D-1F2C98CA0126}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="ASYNC_01_Check_Cards.tcKDTest" />
 		</child>
@@ -64,17 +61,8 @@
 		<child name="CloseCardView" key="{A8DC76AA-1537-452B-AE6D-DE2C4AC2AAB3}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="CloseCardView.tcKDTest" />
 		</child>
-		<child name="EnableDisablePort" key="{9BCF645E-33D0-4830-A14B-0BD51A3E086A}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="EnableDisablePort.tcKDTest" />
-		</child>
 		<child name="ASYNC_03_Enable_Disable_Ports" key="{F64AE417-64CF-4E16-A826-3C44F8DC4111}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="ASYNC_03_Enable_Disable_Ports.tcKDTest" />
-		</child>
-		<child name="AddMapping" key="{7B6B1AFC-66E2-4D38-B038-21BB88EC6A65}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="AddMapping.tcKDTest" />
-		</child>
-		<child name="SelectSourcePortToMap" key="{B9CF3FEA-BC95-43B7-B67F-982FFC0C9594}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="SelectSourcePortToMap.tcKDTest" />
 		</child>
 		<child name="ASYNC_ConfigureBaudRate" key="{90058A90-F30B-4967-92ED-0DFC2FC8D3E6}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="ASYNC_ConfigureBaudRate.tcKDTest" />
@@ -173,7 +161,6 @@
 					<references>
 						<ref key="{9B444C40-EB36-4D60-854A-80312C77EFC1}" />
 						<ref key="{7E664307-0F46-4F26-96B2-825110332874}" />
-						<ref key="{9BCF645E-33D0-4830-A14B-0BD51A3E086A}" />
 						<ref key="{90058A90-F30B-4967-92ED-0DFC2FC8D3E6}" />
 						<ref key="{A6D9BE9B-4C09-41BB-9EB6-41A24FCD38B6}" />
 						<ref key="{B4A46DDD-4C74-4450-B18D-D5DB57B0EFE4}" />
@@ -204,12 +191,9 @@
 						<ref key="{394A70E8-3DE4-4385-B892-C155AB06752D}" />
 						<ref key="{E204988E-1465-490A-BF6E-6F6C954F4B2E}" />
 						<ref key="{3A8AE4FE-96BE-42E5-BEF2-3B0E416FE215}" />
-						<ref key="{10C96420-F2EE-494A-B7F7-1AC020FFFC05}" />
 						<ref key="{0E196014-5355-4E6B-9A67-EC334A84903B}" />
 						<ref key="{D7834E4E-7A24-47A1-B013-31E17D5D4657}" />
 						<ref key="{365A920E-2406-45A8-86D1-9D8AABE440BF}" />
-						<ref key="{7B6B1AFC-66E2-4D38-B038-21BB88EC6A65}" />
-						<ref key="{B9CF3FEA-BC95-43B7-B67F-982FFC0C9594}" />
 						<ref key="{A328D77C-AD11-454A-A0F8-25E63C183242}" />
 						<ref key="{BD60B85A-EE40-42D7-8A17-A276C460EECA}" />
 						<ref key="{B69331E3-9785-4E1B-8F1F-A30CA9FA6693}" />

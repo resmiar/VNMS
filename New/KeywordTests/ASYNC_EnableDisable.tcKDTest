@@ -38,6 +38,19 @@
 						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 							<Root Type="1" Operator="0">
 								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
+								<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="NULL" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+								<Data LabelName="End of loop" />
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="State" />
 								<Right DefVarType="0" VarType="3" ValueType="1" ValueValue="0" />
 							</Root>
 						</Data>
@@ -65,7 +78,7 @@
 									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 										<Parameter Name="State" DefVarType="12" VarType="3" ValueType="1" ValueValue="1" />
 									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.CardViewWindow.TabControlConfiguration.testControl.CheckboxP1Enable;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS.CardView.ASYNC.TabControlConfiguration.testControl.EnableDisable.UcCheckboxAutoForced.Grid.CheckboxP1Enable;" />
 								</Data>
 							</Operation>
 						</Children>
@@ -75,6 +88,7 @@
 					</Operation>
 					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<CommonData WaitTimeout="15000" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.ASYNC.TabControlConfiguration.testControl.EnableDisable.UcCheckboxAutoForced.Grid.cActual" />
 								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Content" />
@@ -95,12 +109,15 @@
 					</Operation>
 				</Children>
 			</Operation>
+			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+				<Data Name="End of loop" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="3" Key="{5FA75AFF-6DAB-4783-A2AB-0CD480FE5B76}">
 		<Items>
-			<Variable Name="State" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="False">
-				<DefValue IntValue="0" />
+			<Variable Name="State" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+				<DefValue StrValue="3000" />
 			</Variable>
 		</Items>
 	</Variables>

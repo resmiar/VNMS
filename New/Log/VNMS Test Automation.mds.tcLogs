@@ -23,47 +23,38 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42923.6306079167"/>
+				<Prp name="datetime" type="D" value="42944.7430038657"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{47F6C0EC-2C01-4C54-A68E-4AC7682F73A4}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
-				<Prp name="relpath" type="S" value="7_7_2017_3_08 PM_04_524\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{72B42BCF-B860-46AA-8998-106614DE7E54}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [AutoDiscoverNetwork]"/>
+				<Prp name="relpath" type="S" value="7_28_2017_5_49 PM_55_534\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42923.6349382176"/>
+				<Prp name="datetime" type="D" value="42947.4603347106"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{EBEC6E52-AD69-45C0-8087-5B66E15BD56C}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
-				<Prp name="relpath" type="S" value="7_7_2017_3_14 PM_18_662\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{E5F6F36D-3E5C-4DE0-9C4C-B523834C8DC4}"/>
+				<Prp name="nameofroot" type="S" value="ASYNC"/>
+				<Prp name="relpath" type="S" value="7_31_2017_11_02 AM_52_919\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42923.6384620139"/>
+				<Prp name="datetime" type="D" value="42947.4795322801"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{BFF7BD8D-A07E-451F-986C-87FA90D888F7}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
-				<Prp name="relpath" type="S" value="7_7_2017_3_19 PM_23_119\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{2F835A9D-C32D-4DAE-9236-F71A829D8502}"/>
+				<Prp name="nameofroot" type="S" value="ASYNC"/>
+				<Prp name="relpath" type="S" value="7_31_2017_11_30 AM_31_589\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42923.6401810764"/>
+				<Prp name="datetime" type="D" value="42947.5071782755"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{843303AD-6F22-40B2-B536-0C19AA56CA3E}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
-				<Prp name="relpath" type="S" value="7_7_2017_3_21 PM_51_645\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42923.6424184259"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C538E70A-3B57-49A0-9DBD-6DEAC36C1F77}"/>
-				<Prp name="nameofroot" type="S" value="Keyword Test Log [FourWire_04]"/>
-				<Prp name="relpath" type="S" value="7_7_2017_3_25 PM_04_952\Description.tcLog"/>
+				<Prp name="key" type="S" value="{5CE8C36E-1D8D-4D0A-A302-E4D59C87B6F9}"/>
+				<Prp name="nameofroot" type="S" value="ProjectTestItem15"/>
+				<Prp name="relpath" type="S" value="7_31_2017_12_10 PM_20_203\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

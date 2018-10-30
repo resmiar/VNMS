@@ -32,7 +32,7 @@
     }
     if (SlotNum == 8)
   {scrollViewer = Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer;
-   scrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500.Grid.Border.Grid.Border.BT1E1MappingGrid.Click(12, 7);
+   scrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500.Grid.Border.Grid.Border.BT1E1MappingGrid.Click();
   }
   }
   if(ShelfType == "3500M")
@@ -64,7 +64,7 @@
     } 
     if (SlotNum == 8)
    {scrollViewer = Aliases.VNMS.MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer;
-    scrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500M.Grid.Border.Grid.Border2.BT1E1MappingGrid.Click(14, 19);
+    scrollViewer.Grid.Grid.SecondNode.Viewbox.SecondNodeView.MappingNode3500M.Grid.Border.Grid.Border2.BT1E1MappingGrid.Click();
     } 
   } 
 }

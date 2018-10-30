@@ -65,6 +65,15 @@
 					<Node name="var2">
 						<Prp name="name" type="S" value="Ports"/>
 					</Node>
+					<Node name="var20">
+						<Prp name="name" type="S" value="PDFLocation"/>
+					</Node>
+					<Node name="var21">
+						<Prp name="name" type="S" value="RBS_Number"/>
+					</Node>
+					<Node name="var22">
+						<Prp name="name" type="S" value="RBSSlots_ToBeChecked"/>
+					</Node>
 					<Node name="var3">
 						<Prp name="name" type="S" value="Mapping"/>
 					</Node>

@@ -7,6 +7,13 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{B4307B61-1844-412C-B5A0-0C5D77D2AD28}">
+				<Data Description="Replaces the current indicator text with the specified one.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Value" DefVarType="8" VarType="8" ValueType="6" ValueValue="Current Testcase: FXS_10_Configure_Companding" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 				<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.VNMS;" />
@@ -136,31 +143,89 @@
 											<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
 										</Data>
 										<Children>
-											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-												<Data Description="Runs a keyword test." TestName="SelectPorts_FXS">
-													<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-														<Parameter Name="PortNum" DefVarType="3" DefValueType="1" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Ports">
-															<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-																<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="FXS">
-																	<Values>
-																		<Value Type="6" Value="ASYNC" Text="ASYNC" />
-																		<Value Type="6" Value="4WIRE" Text="4WIRE" />
-																		<Value Type="6" Value="2WIRE" Text="2WIRE" />
-																		<Value Type="6" Value="FXO" Text="FXO" />
-																		<Value Type="6" Value="FXS" Text="FXS" />
-																		<Value Type="6" Value="C37#94" Text="C37#94" />
-																		<Value Type="6" Value="G703" Text="G703" />
-																	</Values>
-																</Parameter>
-															</ArrayIndexes>
-														</Parameter>
-													</Parameters>
+											<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+												<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+													<Root Type="0" Operator="0">
+														<Expression Type="1" Operator="0">
+															<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Ports">
+																<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																	<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="FXS">
+																		<Values>
+																			<Value Type="6" Value="ASYNC" Text="ASYNC" />
+																			<Value Type="6" Value="4WIRE" Text="4WIRE" />
+																			<Value Type="6" Value="2WIRE" Text="2WIRE" />
+																			<Value Type="6" Value="FXO" Text="FXO" />
+																			<Value Type="6" Value="FXS" Text="FXS" />
+																			<Value Type="6" Value="C37#94" Text="C37#94" />
+																			<Value Type="6" Value="G703" Text="G703" />
+																		</Values>
+																	</Parameter>
+																</ArrayIndexes>
+															</Left>
+															<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="" />
+														</Expression>
+														<Expression Type="1" Operator="0">
+															<Left DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Ports">
+																<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																	<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="FXS">
+																		<Values>
+																			<Value Type="6" Value="ASYNC" Text="ASYNC" />
+																			<Value Type="6" Value="4WIRE" Text="4WIRE" />
+																			<Value Type="6" Value="2WIRE" Text="2WIRE" />
+																			<Value Type="6" Value="FXO" Text="FXO" />
+																			<Value Type="6" Value="FXS" Text="FXS" />
+																			<Value Type="6" Value="C37#94" Text="C37#94" />
+																			<Value Type="6" Value="G703" Text="G703" />
+																		</Values>
+																	</Parameter>
+																</ArrayIndexes>
+															</Left>
+															<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="None" />
+														</Expression>
+													</Root>
 												</Data>
+												<Children>
+													<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+														<Data LabelName="End of Port loop" />
+													</Operation>
+												</Children>
 											</Operation>
-											<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-												<Data Description="Runs a keyword test." TestName="Configure_Companding_FXS" />
+											<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+												<Data />
+												<Children>
+													<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+														<Data Description="Runs a keyword test." TestName="SelectPorts_FXS">
+															<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																<Parameter Name="PortNum" DefVarType="3" DefValueType="1" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Ports">
+																	<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+																		<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="FXS">
+																			<Values>
+																				<Value Type="6" Value="ASYNC" Text="ASYNC" />
+																				<Value Type="6" Value="4WIRE" Text="4WIRE" />
+																				<Value Type="6" Value="2WIRE" Text="2WIRE" />
+																				<Value Type="6" Value="FXO" Text="FXO" />
+																				<Value Type="6" Value="FXS" Text="FXS" />
+																				<Value Type="6" Value="C37#94" Text="C37#94" />
+																				<Value Type="6" Value="G703" Text="G703" />
+																			</Values>
+																		</Parameter>
+																	</ArrayIndexes>
+																</Parameter>
+															</Parameters>
+														</Data>
+													</Operation>
+													<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+														<Data Description="Runs a keyword test." TestName="Configure_Companding_FXS" />
+													</Operation>
+												</Children>
 											</Operation>
 										</Children>
+									</Operation>
+									<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+										<Data Name="End of Port loop" />
+									</Operation>
+									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+										<Data Description="Runs a keyword test." TestName="ResetCardSettings" />
 									</Operation>
 									<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 										<Data Description="Runs a keyword test." TestName="CloseCardView" />
@@ -187,6 +252,9 @@
 						</Children>
 					</Operation>
 				</Children>
+			</Operation>
+			<Operation Type="{ACACF149-6FF2-4BCD-9ECE-A41603E445A1}">
+				<Data Description="Restores the previous indicator text." />
 			</Operation>
 		</Children>
 	</TestData>

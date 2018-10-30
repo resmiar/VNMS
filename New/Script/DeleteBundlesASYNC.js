@@ -11,37 +11,37 @@
   
    if (SlotNum == 1) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot1.FindChild(PropertyNames, PropertyValues, 6, true);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 2) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot2.FindChild(PropertyNames, PropertyValues, 6);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 3) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot3.FindChild(PropertyNames, PropertyValues, 6);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 4) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot4.FindChild(PropertyNames, PropertyValues, 8);
-    SlotObj.ClickR(-1,-1);
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 5) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot5.FindChild(PropertyNames, PropertyValues, 6);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 6) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot6.FindChild(PropertyNames, PropertyValues, 6);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
     if (SlotNum == 7) 
     {SlotObj = Aliases.VNMS.HwndSource_MappingScreen.MappingScreen.BusyIndicator.Grid.ContentGrid.MappingScrollViewer.Grid.Grid.FirstNode.FirstNodeViewBox.FirstNodeView.MappingNode3500.Grid.Border.Grid.SlotArea.Slot7.FindChild(PropertyNames, PropertyValues, 6);
-    SlotObj.ClickR();
+    SlotObj.ClickR(30,20);
     SlotObj.FindChild("ClrFullClassName","RFL.PortGrid",2).PopupMenu.Click("Delete this Bundle");
     }
   }

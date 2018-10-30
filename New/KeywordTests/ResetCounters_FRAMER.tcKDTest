@@ -60,6 +60,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="30000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.ErroredSeconds.FramerErroredSeconds.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
@@ -71,6 +72,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="30000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.ErroredSeconds.SevereSeconds.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
@@ -82,6 +84,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="30000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.PerformanceCounters.LineCodeViolation.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
@@ -93,6 +96,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="3000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.PerformanceCounters.PathCodeViolation.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
@@ -104,6 +108,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="3000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.PerformanceCounters.MFrameErr.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
@@ -115,6 +120,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="3000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.VNMS.CardView.FRAMER.BusyIndicator.Grid.Grid.Status.TabControlStatus.Grid.ScrollViewer.Grid.testControl.PerformanceCounters.AccumBits.TextBox" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
